@@ -24,26 +24,30 @@ Utilizando minha bagagem como **Cozinheiro Industrial**, estou desenvolvendo o *
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </p>
 
-<center>
-
 ---
 
-## 🌊🔥 Projeto: O Quinto Elemento
+<center>
+
+## 🌊 Projeto: O Quinto Elemento
 ### *Gastronomia de Alta Performance & Déficit Calórico*
 
-| Módulo | Versão 1.0 (Legado) | Versão 2.0 (Upgrade) | Status |
-| :---: | :---: | :---: | :---: |
+| 📋 | Versão 1.0 (Legado) | Versão 2.0 (Atualização) | Status |
+| :--- | :--- | :--- | :--- |
 | **Proteína** | Carnes Gordas | **Peixe (Pintado/Salmão)** | `Stable` |
 | **Acompanhamento** | Maionese de Batata | **Maionese Sol Sustenido** | `Optimized` |
 | **Entrada** | Pão de Alho | **Nacho de Milho e Alho** | `Fast Load` |
-| **Digestão** | Arroz Branco | **Abacaxi Gratinado** | `Turbo` |
+| **Digestão** | Arroz Branco | **[Abacaxi Gratinado](HAK01_ABACAXI.md)** | `Turbo` |
 | **Bebida** | Refrigerante / Álcool | **Suco System Optimizer** | `Clean Cache` |
 | **Encerramento** | Pudim / Açúcar | **Mousse em Mi Menor** | `Safe Exit` |
 
-> **"Substituir não é perder sabor, é atualizar o seu hardware para durar mais. 
-O açúcar oculto é o vírus; a informação é o antivírus."**
+> **"Substituir não é perder sabor, é atualizar o seu hardware para durar mais. O açúcar oculto é o vírus; a informação é o antivírus."**
 
 ---
+
+</center>
+  
+
