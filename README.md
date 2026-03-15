@@ -1,10 +1,6 @@
-<p align="center">
-  <br />
-  <font size="7">🔥 &nbsp; 🌬️ &nbsp; 💧 &nbsp; 🌱 &nbsp; 👨‍🍳🧠🤖</font>
-  <br />
-</p>
+🔥 🌬️ 💧 🌱 👨‍🍳✨🤖
 
-# FOGO • AR • ÁGUA • TERRA ➔ [ 5º ELEMENTO ]
+# FOGO • AR • ÁGUA • TERRA ➔ [ 👨‍🍳 5º ELEMENTO ]
 
 ### *A Quinta Força: O Cérebro Unindo a Natureza no Sistema GeminiDoni*
 
