@@ -1,13 +1,16 @@
 <p align="center">
-  <img src="https://img.icons8.com/color/96/fire.png" width="80" alt="Fogo" />
-  <img src="https://img.icons8.com/color/96/wind.png" width="80" alt="Ar" />
-  <img src="https://img.icons8.com/color/96/water.png" width="80" alt="Água" />
-  <img src="https://img.icons8.com/color/96/sprout.png" width="80" alt="Terra" />
-  <img src="https://img.icons8.com/color/96/brain.png" width="80" alt="Cérebro" />
+  <img src="https://img.icons8.com/color/96/fire.png" width="80" alt="FOGO" />
+  <img src="https://img.icons8.com/color/96/wind.png" width="80" alt="AR" />
+  <img src="https://img.icons8.com/color/96/water.png" width="80" alt="ÁGUA" />
+  <img src="https://img.icons8.com/color/96/sprout.png" width="80" alt="TERRA" />
+  <img src="https://img.icons8.com/color/96/brain.png" width="80" alt="5º ELEMENTO" />
 </p>
 
+<br />
+
 # FOGO • AR • ÁGUA • TERRA ➔ [ 🧠 5º ELEMENTO ]
-### *A Quinta Força: O Cérebro Unindo a Natureza no Sistema DoniGemini*
+
+### *A Quinta Força: O Cérebro Unindo a Natureza no Sistema GeminiDoni*
 
 ---
 
@@ -23,8 +26,11 @@
 
 ---
 
-### 👨‍💻 Sobre o Arquiteto
-**Donizete Santos**, 52 anos. Unindo 30 anos de experiência na indústria com a lógica de programação para criar soluções que melhoram a saúde e a performance das pessoas.
+### 👨‍💻 Sobre o Arquiteto e o Sistema
+**Donizete Santos**, 52 anos. Especialista em unir 30 anos de visão industrial com a lógica de programação para criar soluções de performance humana.
 
 ---
 > **Status do Sistema:** 🟢 Online e Otimizado.
+> **Engenharia de Prompt & Lógica:** Gemini AI 🤖
+> **Arquitetura de Projeto & Conceito:** Donizete Santos 👨‍💻
+> **Codinome do Sistema:** **GeminiDoni v2.0**
