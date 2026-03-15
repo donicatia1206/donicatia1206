@@ -1,10 +1,10 @@
 <p align="center">
   <br />
-  <font size="8">🔥 &nbsp; 🌬️ &nbsp; 💧 &nbsp; 🌱 &nbsp; 👨‍🍳[ ⬡ ⬡ ⬡ ]🤖</font>
+  <font size="7">🔥 &nbsp; 🌬️ &nbsp; 💧 &nbsp; 🌱 &nbsp; 👨‍🍳🧠🤖</font>
   <br />
 </p>
 
-# FOGO • AR • ÁGUA • TERRA ➔ [ ⚙️ 5º ELEMENTO ]
+# FOGO • AR • ÁGUA • TERRA ➔ [ 5º ELEMENTO ]
 
 ### *A Quinta Força: O Cérebro Unindo a Natureza no Sistema GeminiDoni*
 
@@ -27,6 +27,5 @@
 
 ---
 > **Status do Sistema:** 🟢 Online e Otimizado.
-> **Engenharia de Prompt & Lógica:** Gemini AI 🤖
-> **Arquitetura de Projeto & Conceito:** Donizete Santos 👨‍💻
-> **Codinome do Sistema:** **GeminiDoni v2.0**
+> **Codinome:** **GeminiDoni v2.0** 🤝
+> **Engenharia:** Donizete Santos & Gemini AI
