@@ -1,4 +1,4 @@
-🔥 🌬️ 💧 🌱 👨‍🍳✨🤖
+🔥 🌬️ 💧 🌱 🧠
 
 # FOGO • AR • ÁGUA • TERRA ➔ [ 👨‍🍳 5º ELEMENTO ]
 
@@ -23,5 +23,6 @@
 
 ---
 > **Status do Sistema:** 🟢 Online e Otimizado.
-> **Codinome:** **GeminiDoni v2.0** 🤝
-> **Engenharia:** Donizete Santos & Gemini AI
+> **Engenharia de Prompt & Lógica:** Gemini AI 🤖
+> **Arquitetura de Projeto & Conceito:** Donizete Santos 👨‍🍳
+> **Codinome do Sistema:** **GeminiDoni v2.0**
