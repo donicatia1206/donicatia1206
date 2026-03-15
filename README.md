@@ -1,14 +1,10 @@
 <p align="center">
-  <img src="https://img.icons8.com/color/96/fire.png" width="80" alt="FOGO" />
-  <img src="https://img.icons8.com/color/96/wind.png" width="80" alt="AR" />
-  <img src="https://img.icons8.com/color/96/water.png" width="80" alt="ÁGUA" />
-  <img src="https://img.icons8.com/color/96/sprout.png" width="80" alt="TERRA" />
-  <img src="https://img.icons8.com/color/96/brain.png" width="80" alt="5º ELEMENTO" />
+  <br />
+  <font size="8">🔥 &nbsp; 🌬️ &nbsp; 💧 &nbsp; 🌱 &nbsp; 👨‍🍳[ ⬡ ⬡ ⬡ ]🤖</font>
+  <br />
 </p>
 
-<br />
-
-# FOGO • AR • ÁGUA • TERRA ➔ [ 🧠 5º ELEMENTO ]
+# FOGO • AR • ÁGUA • TERRA ➔ [ ⚙️ 5º ELEMENTO ]
 
 ### *A Quinta Força: O Cérebro Unindo a Natureza no Sistema GeminiDoni*
 
