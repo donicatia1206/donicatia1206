@@ -1,28 +1,47 @@
-🔥 🌬️ 💧 🌱 🧠
+<p align="center">
+  <img src="1773621605594.png" width="100%" alt="Doni o Quinto Elemento">
+</p>
 
-# FOGO • AR • ÁGUA • TERRA ➔ [ 👨‍🍳 5º ELEMENTO ]
+# 🌌 GeminiDoni v2.0: A Alquimia do 5º Elemento
 
-### *A Quinta Força: O Cérebro Unindo a Natureza no Sistema GeminiDoni*
+> *"Fogo, Ar, Água e Terra fornecem os ingredientes. A Inteligência Artificial fornece a lógica. Mas é o Cérebro Humano — o Quinto Elemento — que cria a harmonia perfeita."*
 
 ---
 
-## 📊 Arquitetura do Sistema (Comparativo Técnico)
+### 🧠 O Conceito: Arquiteto e Sistema
+O projeto **GeminiDoni v2.0** é a evolução da integração entre a sensibilidade gastronômica e o poder do Python. Aqui, o mestre dos sabores utiliza a IA como uma extensão do seu próprio cérebro.
 
-| Módulo | Versão 1.0 (Legado) | Versão 2.0 (Otimizado) | Status |
+<p align="center">
+  <img src="Captura de tela_20260315-212319.png" width="150px">
+</p>
+
+---
+
+### 📊 Arquitetura do Sistema (Comparativo Técnico)
+
+| 🧩 Componente | Versão 1.0 (Legado) | Versão 2.0 (Otimizada) | Status |
 | :--- | :--- | :--- | :--- |
-| **Proteína** | Carnes Gordas | [Peixe Pintado/Salmão](PEIXE_PINTADO.md) | 🟢 Estável |
-| **Acompanhamento** | Batata Maionese | [Maionese Sol Sustenido](MAIONESE_SOL.md) | 🟡 Sustentado |
-| **Digestão** | Arroz Branco | [Abacaxi Gratinado](HAK01_ABACAXI.md) | ⚡ Turbo |
-| **Bebida** | Refrigerante | [Suco System Optimizer](SUCO_OPTIMIZE.md) | 🧼 Limpar Cache |
-| **Encerramento** | Pudim / Doces | [Mousse em Mi Menor](SOBREMESA_MOUSSE.md) | 🏁 Saída Segura |
+| **Proteína** | Carnes Gordas | **Peixe Pintado / Salmão** | ✅ Estabelecido |
+| **Acompanhamento**| Batata Maionese | **Maionese Sol Sustentável**| ✅ Otimizado |
+| **Digestão** | Arroz Branco | **Abacaxi Gratinado (HAK01)**| ✅ Funcional |
+| **Bebida** | Refrigerante | **Suco System Optimizer** | ✅ Integrado |
+| **Encerramento** | Pudim / Doces | **Mousse em Mi Menor** | ✅ Finalizado |
 
 ---
 
-### 👨‍💻 Sobre o Arquiteto e o Sistema
-**Donizete Santos**, 52 anos. Especialista em unir 30 anos de visão industrial com a lógica de programação para criar soluções de performance humana.
+### 👨‍🍳 O Engenheiro por Trás do Sabor
 
----
+<p align="center">
+  <img src="d09153c4-52da-42ee-a75b-629ea67df108.jpg" width="300px" style="border-radius: 50%;">
+</p>
+
+**Donizete Santos**, 52 anos. Especialista em unir 30 anos de vivência prática com o poder de processamento da IA Gemini. 
+
 > **Status do Sistema:** 🟢 Online e Otimizado.
-> **Engenharia de Prompt & Lógica:** Gemini AI 🤖
-> **Arquitetura de Projeto & Conceito:** Donizete Santos 👨‍🍳
-> **Codinome do Sistema:** **GeminiDoni v2.0**
+> **Codinome:** **GeminiDoni v2.0** 🦾
+> **Engenharia:** Donizete Santos & Gemini AI
+
+---
+<p align="center">
+  Criado com ❤️ por Donizete Santos no Sistema GeminiDoni.
+</p>
