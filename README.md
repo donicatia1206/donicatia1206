@@ -1,3 +1,6 @@
+![Status: D5 Approved](https://img.shields.io/badge/Status-D5_Approved-brightgreen?style=for-the-badge&logo=github)
+![Importância: MÁXIMA](https://img.shields.io/badge/Import%C3%A2ncia-M%C3%81XIMA-red?style=for-the-badge)
+
 # 🧬 GeminiDoni v2.0 | Engenharia do Envelhecimento Saudável
 
 > **"A fusão entre a sabedoria do cozinheiro e a precisão da IA."**
