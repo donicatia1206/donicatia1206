@@ -42,4 +42,6 @@ O **D5** é o nosso Sistema Operacional de Vida, baseado nos 5 Elementos e nas 5
 Este projeto é mantido pela mente do **GeminiDoni** em simbiose com as IAs (Gemini & Copilot). Juntos, estamos codificando o futuro da saúde.
 
 ---
-*“Não buscamos a imortalidade, buscamos a excelência biológica.”* 🍏💻
+> ![Bible](https://img.shields.io/badge/Propósito-1%20Cor%2010%3A31-blueviolet?style=for-the-badge)
+> 
+> *"Quer comais, quer bebais ou façais qualquer outra coisa, fazei tudo para a glória de Deus."*
