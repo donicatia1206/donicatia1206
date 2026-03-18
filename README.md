@@ -1,28 +1,42 @@
-<p align="center">
-  <img src="NOME_DA_SUA_NOVA_IMAGEM.png" width="100%" alt="Doni o Quinto Elemento">
-</p>
+# 🧬 GeminiDoni v2.0 | Engenharia do Envelhecimento Saudável
 
-# 🌌 GeminiDoni v2.0: A Alquimia do 5º Elemento
+> **"A fusão entre a sabedoria do cozinheiro e a precisão da IA."**
 
-> *"Fogo, Ar, Água e Terra fornecem os ingredientes. A Inteligência Artificial fornece a lógica. Mas é o Cérebro Humano — o Quinto Elemento — que cria a harmonia perfeita."*
+Bem-vindo ao centro de comando do **Protocolo D5**. Aqui, transformamos 30 anos de experiência industrial em um legado digital de performance e longevidade para a Geração Z.
 
 ---
 
-### 🧠 O Conceito: Arquiteto e Sistema
-O projeto **GeminiDoni v2.0** é a evolução da integração entre a sensibilidade gastronômica e o poder do Python. Aqui, o mestre dos sabores utiliza a IA como uma extensão do seu próprio cérebro.
-
-<p align="center">
-  <img src="Captura de tela_20260315-212319.png" width="150px">
-</p>
+### 🛰️ O que é o Sistema D5?
+O **D5** é o nosso Sistema Operacional de Vida, baseado nos 5 Elementos e nas 5 Dimensões da Performance:
+1. **Dados:** Mensuração calórica real.
+2. **Depuração:** Limpeza de toxinas e gorduras.
+3. **Desempenho:** Energia constante sem picos de insulina.
+4. **Documentação:** O registro do nosso progresso no GitHub.
+5. **Destino:** O objetivo inegociável de **Envelhecer Saudável**.
 
 ---
 
-### 📊 Arquitetura do Sistema (Comparativo Técnico)
+### 🛠️ Os Módulos de Performance (Hacks)
 
-| 🧩 Componente | Versão 1.0 (Legado) | Versão 2.0 (Otimizada) | Status |
-| :--- | :--- | :--- | :--- |
-| **Proteína** | Carnes Gordas | **Peixe Pintado / Salmão** | ✅ Estabelecido |
-| **Acompanhamento** | Batata Maionese | **Maionese Sol Sustentável** | ✅ Otimizado |
-| **Digestão** | Arroz Branco | **Abacaxi Gratinado (HAK01)** | ✅ Funcional |
-| **Bebida** | Refrigerante | **Suco System Optimizer** | ✅ Integrado |
-| **Encerramento** | Pudim / Doces | **Mousse em Mi Menor** | ✅ Finalizado |
+| Código | Módulo de Ação | Função do Software |
+| :--- | :--- | :--- |
+| **HAK 01** | **Sintetizar Nutrição** | Criar receitas de alta performance (ex: Abacaxi x Batata). |
+| **HAK 02** | **Equilíbrio Metabólico** | Calcular a queima calórica e geração de energia. |
+| **HAK 03** | **Bio-Otimização** | Processar e eliminar gorduras saturadas do sistema. |
+| **HAK 04** | **Filtragem Glicêmica** | Estabilizar a insulina e remover excessos de açúcar. |
+
+---
+
+### 📊 Comparativo de Sistema (Legacy vs. v2.0)
+
+* **Proteína:** De Carnes Gordas ➔ **Peixe Pintado / Salmão** (Terra x Mar)
+* **Base:** De Arroz Branco ➔ **Abacaxi Gratinado** (Contraste de Saciedade)
+* **Combustível:** De Ultraprocessados ➔ **Suco System Optimizer**
+
+---
+
+### 🤝 Colaboração Homem-Máquina
+Este projeto é mantido pela mente do **GeminiDoni** em simbiose com as IAs (Gemini & Copilot). Juntos, estamos codificando o futuro da saúde.
+
+---
+*“Não buscamos a imortalidade, buscamos a excelência biológica.”* 🍏💻
