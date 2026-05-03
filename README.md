@@ -1,33 +1,20 @@
-# D5 Protocol and GeminiDoni System
+# ♒ Projeto GeminiDoni: Sistema de Monitoramento Hídrico
 
-Welcome to the mystical world of the D5 Protocol and the GeminiDoni system! A universe where technology meets humor and productivity meets creativity!
+### 🏛️ Sobre o Projeto
+Este repositório integra o **Acervo GeminiDoni**. [span_4](start_span)O software foi desenvolvido para o primeiro módulo de Desenvolvimento de Sistemas (DSI), utilizando a tecnologia (o **Quinto Elemento**) para equilibrar o elemento fundamental **Água**[span_4](end_span).
 
-## 📈 Performance Metrics
-Here, we will explore the performance metrics that make our system fly through the cosmos faster than a caffeine-fueled raccoon!
+### 🚀 Filosofia de Desenvolvimento
+[span_5](start_span)Seguindo o **Legacy Mode**, este código é um guia autônomo focado em performance física e mental[span_5](end_span). Aplicamos os conceitos de:
+* **[span_6](start_span)Abacaxi x Batata:** Código denso e eficiente para garantir "saciedade lógica"[span_6](end_span).
+* **[span_7](start_span)Terra x Mar:** Uma estrutura de dados organizada que reflete a origem da informação[span_7](end_span).
 
-## 🎯 Objetivos 2026
-Our objectives for 2026 are clear: conquer the tech universe, one innovation at a time! Achieve greatness while sipping coffee and solving the world’s problems! Join us on our quest to reach the stars.
+### 🛠️ Funcionalidades
+* Monitorização de 5 níveis de criticidade de reservatórios.
+* Interface visual via terminal utilizando **Sequências de Escape ANSI** para máxima acessibilidade mobile.
+* [span_8](start_span)Sistema digital, ético e funcional[span_8](end_span).
 
-## 💻 Stack Tecnológico
-Our technological stack includes some of the most fascinating tools known to humankind. Wizards from around the globe contribute to this magical setup!
-
-## 🔧 Como Usar Este Repositório
-To utilize this repository, simply fork it, clone it, and dive into the enchanting codebase! Remember, even wizards need to know their spells!
-
-## 🤖 IA Partners
-Meet our intelligent partners – they are not from another planet but they might as well be. Together, we explore the frontiers of AI and technology!
-
-## 🏆 Conquistas
-We have achieved more than just coding; we’ve created a world where innovation meets creativity. Each accomplishment brings us closer to our cosmic goals!
-
-## 🔗 Links Úteis
-- [D5 Protocol Official Documentation](https://example.com/d5)
-- [GitHub Repository](https://github.com/donicatia1206/donicatia1206)
-
-## 🚀 Como Contribuir
-We welcome all contributions! Whether you want to add a new feature or give a humorous touch, your input is vital. Let’s make this project better together!
-
-## 📧 Contato
-For inquiries, feedback, or to share your favorite mediations on the D5 Protocol, reach out at: donicatia1206@example.com 
-
-Stay tuned, cosmic explorers! The adventure has just begun!
+### 🔑 Estética Visual (Elementos)
+* 🔴 **Nível 1:** Crítico
+* 🟡 **Nível 2:** Baixo
+* 🟢 **Nível 3:** Médio
+* 🔵 **Nível 5:** Alerta
