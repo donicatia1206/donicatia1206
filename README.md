@@ -18,3 +18,53 @@ Este repositório integra o **Acervo GeminiDoni**. [span_4](start_span)O softwar
 * 🟡 **Nível 2:** Baixo
 * 🟢 **Nível 3:** Médio
 * 🔵 **Nível 5:** Alerta
+
+
+## 🧮 Calculadora de Déficit Calórico (Módulo Python)
+
+```python
+"""
+PROJETO 5 ELEMENTO / GEMINIDONI
+Módulo de Computação Metabólica e Cálculo de Déficit Calórico
+"""
+
+def calcular_tmb(peso_kg, altura_cm, idade_anos, sexo):
+    if sexo.lower() in ['m', 'masculino']:
+        return (10 * peso_kg) + (6.25 * altura_cm) - (5 * idade_anos) + 5
+    elif sexo.lower() in ['f', 'feminino']:
+        return (10 * peso_kg) + (6.25 * altura_cm) - (5 * idade_anos) - 161
+    raise ValueError("Sexo deve ser 'M' ou 'F'.")
+
+def estimar_gasto_passos(passos, peso_kg):
+    return passos * 0.04 * (peso_kg / 70.0)
+
+def main():
+    print("=" * 50)
+    print("   PROJETO 5 ELEMENTO - CALCULADORA DE DÉFICIT")
+    print("=" * 50)
+    
+    peso = float(input("Peso (kg): "))
+    altura = float(input("Altura (cm): "))
+    idade = int(input("Idade (anos): "))
+    sexo = input("Sexo (M/F): ").strip()
+    
+    tmb = calcular_tmb(peso, altura, idade, sexo)
+    gasto_total = tmb * 1.2
+    
+    usar_passos = input("Incluir passos da palmilha? (S/N): ").strip().lower()
+    if usar_passos == 's':
+        passos = int(input("Total de passos hoje: "))
+        gasto_total += estimar_gasto_passos(passos, peso)
+        
+    calorias_ingestao = float(input("Calorias consumidas hoje (kcal): "))
+    balanco = calorias_ingestao - gasto_total
+    
+    print("\n" + "=" * 50)
+    if balanco < 0:
+        print(f"✅ DÉFICIT CALÓRICO: -{abs(balanco):.2f} kcal")
+    else:
+        print(f"⚠️ SUPERÁVIT CALÓRICO: +{balanco:.2f} kcal")
+    print("=" * 50)
+
+if __name__ == "__main__":
+    main()
