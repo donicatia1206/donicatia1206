@@ -1,4 +1,4 @@
-# 🥤 SUCO SYSTEM OPTIMIZER: O Queimador de Performance
+docs/# 🥤 SUCO SYSTEM OPTIMIZER: O Queimador de Performance
 
 Este módulo do **Protocolo D5** funciona como um agente termogênico e depurativo, projetado para acelerar o metabolismo e limpar o sistema de resíduos lipídicos.
 
