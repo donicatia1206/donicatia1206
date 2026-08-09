@@ -1,61 +1,69 @@
+# ⚡ PROJETO 5 ELEMENTO — Geminidoni
+
 > 📖 *"Portanto, quer comais, quer bebais, ou façais outra qualquer coisa, fazei tudo para a glória de Deus."* — **1 Coríntios 10:31**
 
+---
 
-"""
-PROJETO 5 ELEMENTO / GEMINIDONI
-Módulo Metabólico Personalizado - Donizete
-"""
+<div align="center">
 
-# ==================================================
-# PERFIL BIOMÉTRICO FIXO - DONIZETE
-# ==================================================
-PESO_ATUAL_KG = 131.95
-ALTURA_CM = 185.0
-IDADE_ANOS = 53
-SEXO = 'M'
-META_PERDA_KG = 37.0
-# ==================================================
+### 👨‍🍳 Identidade do Projeto
+![Chapéu Tecnológico - Chef IA](d09153c4-52da-42ee-a75b-629eab7df108.jpg)
 
-def calcular_tmb_donizete():
-    """Calcula a TMB exata do Donizete."""
-    return (10 * PESO_ATUAL_KG) + (6.25 * ALTURA_CM) - (5 * IDADE_ANOS) + 5
+*A união entre a inteligência alimentar, nutrição e tecnologia.*
 
-def estimar_gasto_passos(passos):
-    """Calcula o gasto dos passos considerando o peso atual de 131.95 kg."""
-    fator_peso = PESO_ATUAL_KG / 70.0
-    return passos * 0.04 * fator_peso
+</div>
 
-def diagnostico_dia(calorias_ingeridas, passos_palmilha=0):
-    tmb = calcular_tmb_donizete()
-    gasto_rotina = tmb * 1.2  # Gasto diário básico sem exercícios
-    gasto_passos = estimar_gasto_passos(passos_palmilha)
-    gasto_total = gasto_rotina + gasto_passos
-    
-    balanco = calorias_ingeridas - gasto_total
-    
-    print("=" * 55)
-    print("      PROJETO 5 ELEMENTO - RELATÓRIO DO DONIZETE")
-    print("=" * 55)
-    print(f"📊 Peso Atual: {PESO_ATUAL_KG} kg | Altura: 1.85m | Idade: 53 anos")
-    print(f"🔥 Sua TMB (Metabolismo Basal): {tmb:.2f} kcal")
-    print(f"🚶 Gasto Extra Palmilha ({passos_palmilha} passos): {gasto_passos:.2f} kcal")
-    print(f"⚡ GASTO ENERGÉTICO TOTAL HOJE: {gasto_total:.2f} kcal")
-    print(f"🍽️ Calorias Ingeridas: {calorias_ingeridas:.2f} kcal")
-    print("-" * 55)
-    
-    if balanco < 0:
-        deficit = abs(balanco)
-        print(f"✅ DÉFICIT ATINGIDO: -{deficit:.2f} kcal")
-        print("Sua gordura corporal está sendo queimada para suprir essa energia!")
-    elif balanco > 0:
-        print(f"⚠️ SUPERÁVIT CALÓRICO: +{balanco:.2f} kcal")
-        print("Atenção: Ingestão acima do gasto diário.")
-    else:
-        print("⚖️ BALANÇO NEUTRO: 0 kcal")
-        
-    print("=" * 55)
+---
 
-# Exemplo de teste da função:
-if __name__ == "__main__":
-    # Simulação: consumindo 2000 kcal e dando 4000 passos com a palmilha
-    diagnostico_dia(calorias_ingeridas=2000, passos_palmilha=4000)
+## 🎯 Objetivo Geral
+Transformação, saúde e disciplina através de alquimia alimentar e monitoramento tecnológico diário.
+* **Meta Principal:** Perda de peso sustentável (-37,0 kg) sem cirurgia bariátrica ou medicamentos caros.
+* **Registro de Progresso:** Documentação bioma e acompanhamento visual por fotos (Antes / Depois).
+* **Controle Diário:** Balanço de déficit calórico via algoritmo e palmilha de contagem de passos.
+
+---
+
+## 👤 Perfil Biométrico Fixo (Donizete)
+
+| Parâmetro | Valor |
+| :--- | :--- |
+| **Peso Inicial / Atual** | 131,95 kg |
+| **Altura** | 1,85 m (185 cm) |
+| **Idade** | 53 anos |
+| **Sexo** | Masculino ('M') |
+| **Fórmula TMB** | Mifflin-St Jeor |
+
+---
+
+## 🧪 Os 5 Elementos da Alquimia Alimentar
+
+1. **🔥 Termogênese:** Ativação metabólica e queima contínua.
+2. **🧬 Nutrição:** Equilíbrio de macronutrientes (proteínas e fibras).
+3. **💧 Volumização:** Hidratação e saciedade pelo volume de alimento/líquido.
+4. **📊 Tecnologia:** Algoritmos em Python e palmilha inteligente.
+5. **🙏 Propósito:** Disciplina e fé no processo diário.
+
+---
+
+## ⚙️ Arquitetura do Repositório e Módulos
+
+### 🛠️ Scripts em Python (`.py`)
+* **`calculadora_dia.py`**: Módulo interativo de diagnóstico diário (Passos da palmilha + Calorias ingeridas vs. TMB).
+* **`ALQUIMIA_PYTHON.py`**: Motor de cálculo metabólico e estimativa do índice de saciedade.
+
+---
+
+### 📖 Guias de Alquimia e Receitas (`.md`)
+* **`HAK01_ABACAXI.md`**: Estratégia de digestão rápida e saciedade.
+* **`HAK02_METABOLISMO.md`**: Protocolo de ativação metabólica.
+* **`SUCO_OPTIMIZER.md`**: Otimizador de hidratação e micronutrientes.
+* **`SOBREMESA_MOUSE.md`**: Hack de saciedade doce com baixo impacto calórico.
+
+---
+
+## 💻 Como Executar no Pydroid 3 (Android)
+
+1. Abra o **Pydroid 3** no seu celular.
+2. Abra o arquivo `calculadora_dia.py`.
+3. Toque no botão amarelo de **Play (▶)** para rodar o script.
+4. Digite os dados do seu dia para receber o relatório do seu déficit calórico instantâneo.
