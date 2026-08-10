@@ -25,8 +25,6 @@
 *🔥 A fusão entre bioengenharia, eletrônica e algoritmos para otimização do movimento humano. 🔥*
 
 
-🔥 *A união perfeita entre inteligência alimentar, nutrição de alta precisão e algoritmos.* 🔥
-
 </div>
 
 ---
