@@ -16,8 +16,14 @@
 
 <div align="center">
 
-### 👨‍🍳 IDENTIDADE VISUAL & TECNOLOGIA
-![Chapéu Tecnológico - Chef IA](d09153c4-52da-42ee-a75b-629eab7df108.jpg)
+### 👟 IDENTIDADE VISUAL & ENGENHARIA
+
+<p align="center">
+  <img src="./assets/1786042071104.png" alt="Diagrama Técnico - Palmilha Ortopédica Inteligente" width="500">
+</p>
+
+*🔥 A fusão entre bioengenharia, eletrônica e algoritmos para otimização do movimento humano. 🔥*
+
 
 🔥 *A união perfeita entre inteligência alimentar, nutrição de alta precisão e algoritmos.* 🔥
 
