@@ -43,8 +43,8 @@ def menu_agenda_semanal():
         data = input(f"Data ({dia}): ")
         
         try:
-            passos = int(input(f"Passos registrados pela palmilha: ") or 0)
-            calorias = float(input(f"Calorias consumidas (kcal): ") or 0)
+            passos = int(input("Passos registrados pela palmilha: ") or 0)
+            calorias = float(input("Calorias consumidas (kcal): ") or 0)
         except ValueError:
             print("Entrada inválida! Registrando 0 para este dia.")
             passos, calorias = 0, 0.0
@@ -78,7 +78,8 @@ def menu_agenda_semanal():
     print("-" * 60)
     
     for r in registros:
-        status_balanco = f"{r['balanco']:+.0f} kcal"
+        val_balanco = r['balanco']
+        status_balanco = f"{val_balanco:+.0f} kcal"
         print(f"{r['dia']:<15} | {r['data']:<10} | {r['passos']:<8} | {r['calorias']:<8.0f} | {status_balanco}")
         
     print("-" * 60)
