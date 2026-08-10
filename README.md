@@ -9,7 +9,7 @@
 ---
 
 > [!IMPORTANT]
-> 📖 **PROPÓSITO DIVINO**  
+  
 > *"Portanto, quer comais, quer bebais, ou façais outra qualquer coisa, fazei tudo para a glória de Deus."* — **1 Coríntios 10:31**
 
 ---
