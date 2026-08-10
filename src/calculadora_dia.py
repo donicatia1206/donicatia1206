@@ -11,7 +11,7 @@ def calcular_tmb_mifflin(peso_kg, altura_cm, idade, sexo='M'):
 
 def menu_agenda_semanal():
     # Parâmetros Biométricos Fixos (Donizete)
-    PESO = 101.95
+    PESO = 131.95
     ALTURA = 185
     IDADE = 53
     
