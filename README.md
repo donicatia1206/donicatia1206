@@ -58,6 +58,7 @@
 > 3. 💧 **VOLUMIZAÇÃO:** Máxima saciedade pelo volume inteligente de fluidos e fibras.
 > 4. 📊 **TECNOLOGIA:** Controle matemático via Pydroid 3 e sensores de passos.
 >
+5. 🎯 **EXECUÇÃO DISCIPLINADA:** Adesão rigorosa às metas diárias sem negociação.
 
 ---
 
