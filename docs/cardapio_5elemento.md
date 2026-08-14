@@ -15,7 +15,7 @@
 ## 📋 Refeições Diárias 5Elemento
 
 ### 1. Café da Manhã
-![Café da Manhã](../assets/1000090641.png)
+![Café](../assets/1000090641.png)
 * **3 ovos + pão integral + café sem açúcar**
 * ⚡ Proteína + energia limpa. Comece o dia sem fome e sem queda de energia.
 
