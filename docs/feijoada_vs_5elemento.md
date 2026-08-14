@@ -6,7 +6,7 @@
 
 ## 📖 Apresentação
 
-![Feijoada Brasileira Tradicional](https://images.unsplash.com/photo-1541832676-9b763b0239ab?auto=format&fit=crop&w=800&q=80)
+![Feijoada Tradicional](../assets/feijoada.jpg%20(1).jpg)
 
 A **Feijoada** é uma das maiores riquezas da nossa gastronomia. Um verdadeiro "Conforto da Terra", rica em sabor, história e afeto, ideal para celebrar momentos especiais ao lado de quem amamos.
 
