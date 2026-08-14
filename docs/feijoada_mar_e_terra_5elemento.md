@@ -4,6 +4,14 @@
 
 ---
 
+## 👨‍🍳 A Filosofia 5Elemento
+
+![Chef 5Elemento](../assets/Screenshot_20260321-204917.png)
+
+> **"VOCÊ NÃO PRECISA SOFRER, PRECISA ENTENDER O JOGO."**
+
+---
+
 ## 📖 O Conceito
 
 A **Feijoada Mar & Terra 5Elemento** é uma criação autoral focada em alta gastronomia funcional. Ela preserva o afeto, a cor profunda e o conforto da feijoada tradicional, substituindo embutidos e gorduras pesadas por uma combinação refinada de **Pintado, Bacalhau nobre, Cenoura defumada e especiarias termogênicas**.
