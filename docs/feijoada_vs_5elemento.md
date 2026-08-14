@@ -6,6 +6,8 @@
 
 ## 📖 Apresentação
 
+![Feijoada Tradicional](https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80)
+
 A **Feijoada** é uma das maiores riquezas da nossa gastronomia. Um verdadeiro "Conforto da Terra", rica em sabor, história e afeto, ideal para celebrar momentos especiais ao lado de quem amamos.
 
 O **Cardápio 5Elemento** não nasce para criticar ou substituir o valor cultural da feijoada, mas sim para oferecer uma alternativa de alta digestibilidade ("Conforto Mar & Terra") focada em energia constante, leveza e alta performance para o dia a dia.
