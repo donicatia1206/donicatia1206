@@ -1,6 +1,6 @@
 # 🛡️ Guia Completo: Fisiologia do Déficit e Estratégias sem Sofrimento
 
-Este documento consolida os parâmetros metabólicos, a fisiologia da preservação de massa magra e as diretrizes práticas do **Projeto 5º Elemento** para perda de gordura sustentável.
+Este documento consolida os parâmetros metabólicos, a fisiologia da preservação de massa magra e as diretrizes práticas do **Projeto 5º Elemento** para perda de gordura sustentável no mundo real.
 
 ---
 
@@ -34,12 +34,18 @@ Um déficit calórico agressivo (ex: gastar 6.000 kcal mantendo consumo baixo) *
 
 ## 🥦 4. Estratégias Práticas para Ficar em Forma sem Sofrer
 
-* **Volumização por Baixa Densidade Calórica:** Consumo de alimentos de alto volume e poucas calorias (folhas, legumes cozidos, frutas de alta hidratação como melancia e morango) para saciedade mecânica.
+* **Volumização por Baixa Densidade Calórica:** Consumo de alimentos de alto volume e poucas calorias (folhas, legumes cozidos, frutas de alta hidratação) para saciedade mecânica.
 * **Proteína e Fibra em Todas as Refeições:** Proteínas (ovos, carnes magras, frango, peixe) e fibras (aveia, sementes) possuem alto poder de saciedade e retardam o esvaziamento gástrico.
 * **Hidratação Estratégica (35 a 40 ml/kg):** Otimiza a função renal, metabólica e ajuda na regulação dos sinais de fome/sede.
 * **Passos Diários (NEAT/Palmilha Inteligente):** Manter uma rotina ativa com caminhadas constantes queima calorias sem gerar o aumento drástico de apetite dos exercícios exaustivos.
-* **Sono de Qualidade (7 a 8 horas):** Regula os hormônios da fome (grelina e leptina) e reduz os níveis de cortisol, diminuindo o desejo por doces.
+* **Sono de Qualidade (7 a 8 horas):** Regula os hormônios da fome (grelina e leptina) e reduz os níveis de cortisol.
 
 ---
 
-> *Documento integrado ao Projeto 5º Elemento para fundamentação teórica e consulta contínua.*
+## 🍿 5. Substituições Práticas de Prateleira (Mundo Real)
+
+Para a correria do dia a dia (transporte, escola, trabalho) sem perder a praticidade, o foco é trocar ultraprocessados de alta densidade por opções de prateleira prontas para consumo:
+
+* **Controle da Porção (Sachês Individuais):** Priorizar embalagens individuais (30g a 40g) para impor um limite físico e automático ao consumo de calorias.
+* **Troca Doce/Crocante (Substituto a Biscoitos Recheados):** Barras de proteína recheadas, wafers proteicos ou cookies integrais em porções individuais. Entregam crocância com aporte de proteínas e fibras.
+* **Troca Salgada/Crocante (Substituto a Salgadinhos Fritos):** Snacks assados de grãos (grão-de-bico, lentilha), chips assados ou pipoca sem gordura.
