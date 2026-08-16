@@ -44,8 +44,15 @@ Um déficit calórico agressivo (ex: gastar 6.000 kcal mantendo consumo baixo) *
 
 ## 🍿 5. Substituições Práticas de Prateleira (Mundo Real)
 
-Para a correria do dia a dia (transporte, escola, trabalho) sem perder a praticidade, o foco é trocar ultraprocessados de alta densidade por opções de prateleira prontas para consumo:
+Para manter a praticidade na rotina (transporte, escola, trabalho) sem perder o controle calórico, o foco é substituir ultraprocessados de alta densidade energética por opções funcionais de prateleira:
 
-* **Controle da Porção (Sachês Individuais):** Priorizar embalagens individuais (30g a 40g) para impor um limite físico e automático ao consumo de calorias.
-* **Troca Doce/Crocante (Substituto a Biscoitos Recheados):** Barras de proteína recheadas, wafers proteicos ou cookies integrais em porções individuais. Entregam crocância com aporte de proteínas e fibras.
-* **Troca Salgada/Crocante (Substituto a Salgadinhos Fritos):** Snacks assados de grãos (grão-de-bico, lentilha), chips assados ou pipoca sem gordura.
+| Categoria Tradicional (Alta Caloria) 🛑 | Substituto Prático de Prateleira 🛒 | Vantagem Metabólica no Déficit ⚡ |
+| :--- | :--- | :--- |
+| **🍪 Biscoitos Recheados** *(Doces e Crocantes)* | **🍫 Wafers / Barras Proteicas Recheadas** ou **🍪 Cookies Integrais (Sachê)** | Entrega crocância e sabor doce com 10g a 20g de proteína por porção (~180 kcal), saciando de verdade em vez de gerar mais fome. |
+| **🌽 Salgadinhos de Milho/Trigo Fritos** *(Salgados e Crocantes)* | **🧆 Salgadinhos de Grão-de-Bico/Lentilha** ou **🍠 Chips de Batata-Doce/Mandioca Assados** | Mantém a crocância marcante e o sabor salgado, mas com muito menos gordura saturada e maior teor de fibras. |
+| **🧀 Salgadinhos Extrudados / Puffs** | **🍿 Pipoca de Milho sem Gordura** ou **🌱 Snacks de Soja Assados** | Permite um volume físico muito maior para mastigar (volumização) com uma fração das calorias dos salgadinhos tradicionais. |
+
+---
+
+### 🎯 Diretriz de Ouro do 5º Elemento
+* **📦 Embalagens Individuais:** Dar preferência a sachês de 30g a 40g para impor um limite físico e automático ao consumo energético no transporte ou no trabalho.
