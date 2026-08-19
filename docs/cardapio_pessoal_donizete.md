@@ -87,3 +87,33 @@
 > 💧 **Hidratação:** Beba no mínimo 3 litros de água por dia para auxiliar na eliminação de toxinas e na lubrificação articular.
 > 
 > 🩺 **Acompanhamento:** Consulte o seu médico e nutricionista para validação e ajustes suplementares (ex: Ômega-3 ou Magnésio) devido às condições articulares.
+
+
+
+---
+
+## 📈 Projeção em Fases & Adaptação Metabólica
+
+Para garantir um emagrecimento constante de 130 kg até a meta final de 100 kg, a ingestão calórica será ajustada progressivamente em fases estratégicas. Isso evita platôs e mantém a queima de gordura ativa sem comprometer a saciedade.
+
+### 📊 Tabela de Progressão de Fases
+
+| Fase do Projeto | Peso Estimado | Gasto Diário (GET) | Meta Calórica | Ajuste Principal no Prato |
+| :--- | :---: | :---: | :---: | :--- |
+| **Fase 1 (Atual)** | **130 kg → 118 kg** | ~2.600 kcal | **2.200 kcal** | Manutenção do volume total do cardápio atual. |
+| **Fase 2 (Intermediária)** | **118 kg → 108 kg** | ~2.350 kcal | **1.950 kcal** | Redução leve de carboidratos densos (ex: arroz/mandioca). |
+| **Fase 3 (Consolidação)** | **108 kg → 100 kg** | ~2.100 kcal | **1.700 kcal** | Aumento do volume de vegetais e saladas para manter o prato cheio. |
+
+---
+
+## ⚙️ Regras do Jogo para Transição de Fase
+
+1. **Gatilho de Mudança:** A transição para a próxima fase só ocorre após a estabilização do peso por 3 a 4 semanas consecutivas.
+2. **Proteínas Intactas:** As porções de ovos, frango e peixe permanecem elevadas em todas as fases para preservar a massa muscular e proteger as articulações.
+3. **Volume Garantido:** A redução calórica é feita ajustando gorduras adicionadas e carboidratos, aumentando proporcionalmente as saladas e legumes folhosos.
+
+---
+
+## 🏆 Conclusão do Plano
+
+> *"O emagrecimento definitivo não é um tiro de 100 metros, é uma maratona estratégica. Ajustar as calorias conforme o corpo muda é entender o jogo e garantir a vitória sem sofrimento."*
