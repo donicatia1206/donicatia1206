@@ -148,3 +148,7 @@
 * **Sabor Sem Excesso**: Uso estratégico de aromáticos (alho-poró, cebola, especiarias) e Reação de Maillard (grelha/air fryer) para extrair o máximo de sabor natural sem sódio ou gordura ruim.
 
 * 🧪 `src/ativacao_nutrientes.py` → **Inteligência Nutricional:** Mapeia regras de ativação, técnicas de cocção (vapor, churrasqueira, air fryer) e aromáticos para máxima absorção e sabor.
+---
+### ⚡ Palmilha Inteligente (ESP32-C3)
+* 🔗 **Simulação Wokwi:** [Acessar Projeto Interativo](https://wokwi.com/projects/473442608376337409)
+* 📄 **Relatório Técnico:** Ver `docs/RELATORIO_PALMILHA_WOKWI.md`.
