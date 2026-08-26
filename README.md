@@ -38,8 +38,7 @@
 
 ---
 ---
-## 👤 PERFIL BIOMÉTRICO FIXO (DONIZETE)
-
+## 👤 PERFIL BIOMÉTRICO FIXO DONIZETE 
 | Parâmetro | Valor Registrado | Observação | Fotos de Referência |
 | :--- | :--- | :--- | :---: |
 | **Peso Inicial** | `131,95 kg` | Ponto de partida | <img src="assets/Screenshot_20260319-023549.png" width="85" height="110" style="object-fit: cover;"><br>*Origem (131,95 kg)* |
