@@ -84,3 +84,25 @@
 2. 📂 Selecione o arquivo `calculadora_dia.py`.
 3. ▶️ Toque no botão amarelo de **Play** para rodar.
 4. 🔢 Insira os dados do seu dia e receba o diagnóstico de déficit calórico instantâneo!
+
+
+
+
+---
+
+## 👨‍🍳 Módulo de Inteligência Nutricional & Biodisponibilidade
+
+> *"A culinária profissional combinada com a precisão dos algoritmos: o alimento como combustível limpo e de alta performance metabólica."*
+
+| Chef & Tecnologia | Churrasqueira & Cocção Seca | Sucos & Ativação de Vitamina C | Feijoada & Antinutrientes |
+| :---: | :---: | :---: | :---: |
+| ![Chef Donizete](assets/265f1f64-4244-496c-b92d-f40c0e4e7ee3.jpg) | ![Churrasco Tecnológico](assets/churrasco_2 (1).jpg) | ![Sucos e Vitaminas](assets/sucosvariados (1).jpg) | ![Feijoada do Projeto](assets/feijoada.jpg (1).jpg) |
+| *O Chef Tecnológico* | *Reação de Maillard sem excessos* | *Sucos funcionais e extratos* | *Remolho e biodisponibilidade* |
+
+### 🎯 Pilares Nutricionais
+
+* **Ativação de Nutrientes (Biodisponibilidade)**: Parear vegetais verde-escuros com Vitamina C (limão) multiplica a absorção de ferro não-heme. Lipossolúveis (A, D, E, K) necessitam de fonte leve de gorduras boas (azeite/sementes).
+* **Saciedade Sem Excesso**: Volume gástrico com vegetais estruturais e fibras (couve-flor, alho-poró) para evitar picos de insulina e prolongar a saciedade.
+* **Sabor Sem Excesso**: Uso estratégico de aromáticos (alho-poró, cebola, especiarias) e Reação de Maillard (grelha/air fryer) para extrair o máximo de sabor natural sem sódio ou gordura ruim.
+
+* 🧪 `src/ativacao_nutrientes.py` → **Inteligência Nutricional:** Mapeia regras de ativação, técnicas de cocção (vapor, churrasqueira, air fryer) e aromáticos para máxima absorção e sabor.
