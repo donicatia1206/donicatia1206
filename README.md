@@ -37,6 +37,7 @@
 > * 👣 **Monitoramento Inteligente:** Análise de déficit calórico em tempo real via palmilha e scripts Python.
 
 ---
+---
 ## 👤 PERFIL BIOMÉTRICO FIXO (DONIZETE)
 
 | Parâmetro | Valor Registrado | Observação | Fotos de Referência |
@@ -47,9 +48,8 @@
 | **Sexo** | `Masculino ('M')` | Perfil metabólico | |
 | **Fórmula TMB** | `Mifflin-St Jeor` | Motor de cálculo base | |
 
-
-
 ---
+
 
 ## 🧪 OS 5 ELEMENTOS DA ALQUIMIA ALIMENTAR
 
