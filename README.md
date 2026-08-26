@@ -89,8 +89,38 @@
 
 
 ---
+---
 
 ## 👨‍🍳 Módulo de Inteligência Nutricional & Biodisponibilidade
+
+> *"A culinária profissional combinada com a precisão dos algoritmos: o alimento como combustível limpo e de alta performance metabólica."*
+
+### 📸 A Jornada & A Visão Tecnológica
+
+| Origem da Jornada | Chef Tecnológico | Cocção Seca |
+| :---: | :---: | :---: |
+| <img src="assets/Screenshot_20260319-023549.png" width="120" height="150" style="object-fit: cover;"> | <img src="assets/Screenshot_20260316-002856.png" width="120" height="150" style="object-fit: cover;"> | <img src="assets/churrasco_3 (1).jpg" width="120" height="150" style="object-fit: cover;"> |
+| *Ponto de Partida* | *Visão de Futuro* | *Reação de Maillard* |
+
+### 🥗 Alquimia & Ativação de Alimentos
+
+| Vitamina C & Ativação | Feijoada & Antinutrientes |
+| :---: | :---: |
+| <img src="assets/suco limão_siciliano (1).jpg" width="120" height="150" style="object-fit: cover;"> | <img src="assets/,1feijoada (1).jpg" width="120" height="150" style="object-fit: cover;"> |
+| *Sinergia e Extratos* | *Remolho e Digestividade* |
+
+---
+
+### 🎯 Pilares Nutricionais
+
+* **Ativação de Nutrientes (Biodisponibilidade)**: Parear vegetais verde-escuros com Vitamina C (limão) multiplica a absorção de ferro não-heme. Lipossolúveis (A, D, E, K) necessitam de fonte leve de gorduras boas (azeite/sementes).
+* **Saciedade Sem Excesso**: Volume gástrico com vegetais estruturais e fibras (couve-flor, alho-poró) para evitar picos de insulina e prolongar a saciedade.
+* **Sabor Sem Excesso**: Uso estratégico de aromáticos (alho-poró, cebola, especiarias) e Reação de Maillard (grelha/air fryer) para extrair o máximo de sabor natural sem sódio ou gordura ruim.
+
+* 🧪 `src/ativacao_nutrientes.py` → **Inteligência Nutricional:** Mapeia regras de ativação, técnicas de cocção (vapor, churrasqueira, air fryer) e aromáticos para máxima absorção e sabor.
+
+
+ Módulo de Inteligência Nutricional & Biodisponibilidade
 
 > *"A culinária profissional combinada com a precisão dos algoritmos: o alimento como combustível limpo e de alta performance metabólica."*
 
@@ -100,19 +130,6 @@
 
 ---
 
-## 👨‍🍳 Módulo de Inteligência Nutricional & Biodisponibilidade
-
-> *"A culinária profissional combinada com a precisão dos algoritmos: o alimento como combustível limpo e de alta performance metabólica."*
-
-| Chef & Tecnologia | Churrasqueira & Cocção Seca | Sucos & Ativação de Vitamina C | Feijoada & Antinutrientes |
-| :---: | :---: | :---: | :---: |
-| Origem da Jornada | Chef & Tecnologia | Churrasqueira & Cocção Seca | Suco & Ativação Vit. C | Feijoada & Antinutrientes |
-| :---: | :---: | :---: | :---: | :---: |
-| <img src="assets/Screenshot_20260319-023549.png" width="130"> | <img src="assets/Screenshot_20260316-002856.png" width="130"> | <img src="assets/churrasco_3 (1).jpg" width="130"> | <img src="assets/suco limão_siciliano (1).jpg" width="130"> | <img src="assets/,1feijoada (1).jpg" width="130"> |
-| *Ponto de Partida* | *Chef Tecnológico* | *Reação de Maillard* | *Sinergia e Extratos* | *Remolho e Digestividade* |
-
-
-| *O Chef Tecnológico* | *Reação de Maillard sem excessos* | *Sucos funcionais e extratos* | *Remolho e biodisponibilidade* |
 
 ### 🎯 Pilares Nutricionais
 
