@@ -106,7 +106,8 @@
 
 | Chef & Tecnologia | Churrasqueira & Cocção Seca | Sucos & Ativação de Vitamina C | Feijoada & Antinutrientes |
 | :---: | :---: | :---: | :---: |
-| ![Chef Donizete](assets/265f1f64-4244-496c-b92d-f40c0e4e7ee3.jpg) | ![Churrasco Tecnológico](assets/churrasco_2 (1).jpg) | ![Sucos e Vitaminas](assets/sucosvariados (1).jpg) | ![Feijoada do Projeto](assets/feijoada.jpg (1).jpg) |
+| <img src="assets/265f1f64-4244-496c-b92d-f40c0e4e7ee3.jpg" width="150"> | <img src="assets/churrasco_2 (1).jpg" width="150"> | <img src="assets/sucosvariados (1).jpg" width="150"> | <img src="assets/feijoada.jpg (1).jpg" width="150"> |
+
 | *O Chef Tecnológico* | *Reação de Maillard sem excessos* | *Sucos funcionais e extratos* | *Remolho e biodisponibilidade* |
 
 ### 🎯 Pilares Nutricionais
