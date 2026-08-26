@@ -37,17 +37,16 @@
 > * 👣 **Monitoramento Inteligente:** Análise de déficit calórico em tempo real via palmilha e scripts Python.
 
 ---
-
 ## 👤 PERFIL BIOMÉTRICO FIXO (DONIZETE)
 
 | Parâmetro | Valor Registrado | Observação | Fotos de Referência |
 | :--- | :--- | :--- | :---: |
-| **Peso Inicial** | `131,95 kg` | Ponto de partida | <img src="assets/Screenshot_20260319-023549.png" width="100" height="130" style="object-fit: cover;"><br>*Origem (131,95 kg)* |
+| **Peso Inicial** | `131,95 kg` | Ponto de partida | <img src="assets/Screenshot_20260319-023549.png" width="85" height="110" style="object-fit: cover;"><br>*Origem (131,95 kg)* |
 | **Altura** | `1,85 m` (185 cm) | Altura fixa | |
-| **Idade** | `53 anos` | Métrica de cálculo | <img src="assets/Screenshot_20260316-002856.png" width="85" height="110" style="object-fit: cover;"><br>*Chef Tecnológico*
- |
+| **Idade** | `53 anos` | Métrica de cálculo | <img src="assets/Screenshot_20260316-002856.png" width="85" height="110" style="object-fit: cover;"><br>*Chef Tecnológico* |
 | **Sexo** | `Masculino ('M')` | Perfil metabólico | |
 | **Fórmula TMB** | `Mifflin-St Jeor` | Motor de cálculo base | |
+
 
 
 ---
