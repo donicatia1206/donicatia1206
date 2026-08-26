@@ -106,7 +106,11 @@
 
 | Chef & Tecnologia | Churrasqueira & Cocção Seca | Sucos & Ativação de Vitamina C | Feijoada & Antinutrientes |
 | :---: | :---: | :---: | :---: |
-| <img src="assets/265f1f64-4244-496c-b92d-f40c0e4e7ee3.jpg" width="150"> | <img src="assets/churrasco_2 (1).jpg" width="150"> | <img src="assets/sucosvariados (1).jpg" width="150"> | <img src="assets/feijoada.jpg (1).jpg" width="150"> |
+| Origem da Jornada | Chef & Tecnologia | Churrasqueira & Cocção Seca | Suco & Ativação Vit. C | Feijoada & Antinutrientes |
+| :---: | :---: | :---: | :---: | :---: |
+| <img src="assets/Screenshot_20260319-023549.png" width="130"> | <img src="assets/Screenshot_20260316-002856.png" width="130"> | <img src="assets/churrasco_3 (1).jpg" width="130"> | <img src="assets/suco limão_siciliano (1).jpg" width="130"> | <img src="assets/,1feijoada (1).jpg" width="130"> |
+| *Ponto de Partida* | *Chef Tecnológico* | *Reação de Maillard* | *Sinergia e Extratos* | *Remolho e Digestividade* |
+
 
 | *O Chef Tecnológico* | *Reação de Maillard sem excessos* | *Sucos funcionais e extratos* | *Remolho e biodisponibilidade* |
 
