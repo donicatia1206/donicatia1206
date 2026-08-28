@@ -1,0 +1,35 @@
+# 🧪 Relatório de Validação Técnica - Servidor Web Embarcado (ESP32-C3)
+
+**Data:** 28/08/2026  
+**Projeto:** Projeto 5º Elemento  
+**Ambiente de Teste:** Simulador Wokwi (Nuvem)  
+**Arquivo Fonte:** `src/embarcados/webserver_calculadora.ino`
+
+---
+
+## 🎯 Objetivo
+Validar a compilação do firmware C++, a alocação de memória e a inicialização da pilha de rede Wi-Fi/HTTP para a calculadora de déficit calórico e METs no microcontrolador ESP32-C3.
+
+---
+
+## 📊 Parâmetros de Entrada
+- **Massa Corporal Base:** 131,95 kg
+- **Taxa Metabólica Basal (TMB):** 2.216,0 kcal
+- **Porta HTTP:** 80
+- **Modos de Operação Testados:**
+  - `WiFi.begin("Wokwi-GUEST")` (Cliente Wi-Fi em rede virtual)
+  - `WiFi.softAP("Projeto_5Elemento")` (Ponto de Acesso Local)
+
+---
+
+## ✅ Resultados Obtidos
+1. **Compilação C++:** Finalizada com sucesso sem erros de sintaxe ou bibliotecas ausentes (`<WiFi.h>`, `<WebServer.h>`).
+2. **Inicialização do Bootloader:** O chip ESP32-C3 concluiu o ciclo de carregamento e inicializou a Serial a 115200 baud.
+3. **Pilha da Rede:** Endereço IP local atribuído e rotas `/` (Formulário HTML) e `/calcular` (Processamento de Balanço) registradas na porta 80.
+4. **Monitor Serial:** Resposta confirmada em execução continuada.
+
+---
+
+## 📌 Próximos Passos
+- Gravação do firmware na placa física ESP32-C3 via Arduino IDE / USB-C.
+- Teste de campo conectando o smartphone na rede criada pela palmilha inteligente (`Projeto_5Elemento`) para cálculo em tempo real no endereço IP `192.168.4.1`.
