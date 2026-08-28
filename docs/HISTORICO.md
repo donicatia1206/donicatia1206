@@ -2,6 +2,15 @@
 
 Este documento registra o marco zero da organização, arquitetura de software e consolidação do repositório do **Projeto 5º Elemento**.
 
+### 🗓️ [28/08/2026] — Módulo de METs e Guia Teórico da Calculadora
+
+- **Script (`calculadora_dia.py`):** Adicionada tabela de METs para cálculo de gasto calórico em ciclismo, musculação, natação, crossfit e corrida na areia.
+- **Tratamento de Dados:** Ajustada a lógica de médias semanais para ignorar dias ainda não preenchidos.
+- **Documentação (`CALCULADORA.md`):** Criado guia explicativo com fundamentos fisiológicos (TMB, MET, Déficit Calórico) e fórmulas matemáticas.
+- **Parâmetro de Perfil:** Peso base atualizado para 131,95 kg.
+
+---
+
 ---
 
 ## 📁 1. Estrutura de Diretórios (Raiz do Repositório)
