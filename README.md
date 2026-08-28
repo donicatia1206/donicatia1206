@@ -152,3 +152,4 @@
 ### ⚡ Palmilha Inteligente (ESP32-C3)
 * 🔗 **Simulação Wokwi:** [Acessar Projeto Interativo](https://wokwi.com/projects/473442608376337409)
 * 📄 **Relatório Técnico:** Ver `docs/RELATORIO_PALMILHA_WOKWI.md`.
+* 🧬 **Visão Científica:** [Inteligência Artificial na Ciência e Saúde](./documentos/CIENCIA_E_IA.md)
