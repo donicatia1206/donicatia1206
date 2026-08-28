@@ -3,6 +3,7 @@
 Este documento registra o marco zero da organização, arquitetura de software e consolidação do repositório do **Projeto 5º Elemento**.
 
 ### 🗓️ [28/08/2026] — Módulo de METs e Guia Teórico da Calculadora
+- **Firmware WebServer (`webserver_calculadora.ino`):** Criado servidor web embarcado no ESP32-C3 para disponibilizar a interface da calculadora de déficit calórico e METs via rede Wi-Fi local.
 
 - **Script (`calculadora_dia.py`):** Adicionada tabela de METs para cálculo de gasto calórico em ciclismo, musculação, natação, crossfit e corrida na areia.
 - **Tratamento de Dados:** Ajustada a lógica de médias semanais para ignorar dias ainda não preenchidos.
