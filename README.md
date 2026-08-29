@@ -1,4 +1,4 @@
-# <p align="center">⚡ PROJETO 5 ELEMENTO — GEMINIDONI ⚡</p>
+# <p align="center">⚡ PROJETO 5º ELEMENTO — GEMINIDONI ⚡</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Meta--Perda--Peso--37kg-FF4500?style=for-the-badge&logo=target&logoColor=white" />
@@ -9,7 +9,6 @@
 ---
 
 > [!IMPORTANT]
-  
 > *"Portanto, quer comais, quer bebais, ou façais outra qualquer coisa, fazei tudo para a glória de Deus."* — **1 Coríntios 10:31**
 
 ---
@@ -24,7 +23,6 @@
 
 *🔥 A fusão entre bioengenharia, eletrônica e algoritmos para otimização do movimento humano. 🔥*
 
-
 </div>
 
 ---
@@ -37,7 +35,7 @@
 > * 👣 **Monitoramento Inteligente:** Análise de déficit calórico em tempo real via palmilha e scripts Python.
 
 ---
----
+
 ## 👤 PERFIL BIOMÉTRICO FIXO DONIZETE 
 | Parâmetro | Valor Registrado | Observação | Fotos de Referência |
 | :--- | :--- | :--- | :---: |
@@ -49,7 +47,6 @@
 
 ---
 
-
 ## 🧪 OS 5 ELEMENTOS DA ALQUIMIA ALIMENTAR
 
 > [!TIP]
@@ -59,7 +56,6 @@
 > 4. 📊 **TECNOLOGIA:** Controle matemático via Pydroid 3 e sensores de passos.
 > 5. 🎯 **EXECUÇÃO DISCIPLINADA:** Adesão rigorosa às metas diárias sem negociação.
 
-
 ---
 
 ## ⚙️ ARQUITETURA DO REPOSITÓRIO
@@ -67,6 +63,7 @@
 ### 🛠️ Scripts em Python (`.py`)
 * 🐍 `calculadora_dia.py` ➔ **Diagnóstico Diário:** Lê passos da palmilha, calcula TMB e mostra o balanço de calorias.
 * 🧪 `ALQUIMIA_PYTHON.py` ➔ **Motor Metabólico:** Calcula taxa de saciedade por volume e macronutrientes.
+* 🧪 `src/ativacao_nutrientes.py` ➔ **Inteligência Nutricional:** Mapeia regras de ativação, técnicas de cocção (vapor, churrasqueira, air fryer) e aromáticos para máxima absorção e sabor.
 
 ---
 
@@ -78,20 +75,7 @@
 
 ---
 
-## 💻 COMO EXECUTAR NO PYDROID 3 (ANDROID)
-
-1. 📲 Abra o **Pydroid 3** no celular.
-2. 📂 Selecione o arquivo `calculadora_dia.py`.
-3. ▶️ Toque no botão amarelo de **Play** para rodar.
-4. 🔢 Insira os dados do seu dia e receba o diagnóstico de déficit calórico instantâneo!
-
-
-
-
----
----
-
-## 👨‍🍳 Módulo de Inteligência Nutricional & Biodisponibilidade
+## 👨‍🍳 MÓDULO DE INTELIGÊNCIA NUTRICIONAL & BIODISPONIBILIDADE
 
 > *"A culinária profissional combinada com a precisão dos algoritmos: o alimento como combustível limpo e de alta performance metabólica."*
 
@@ -117,39 +101,18 @@
 * **Saciedade Sem Excesso**: Volume gástrico com vegetais estruturais e fibras (couve-flor, alho-poró) para evitar picos de insulina e prolongar a saciedade.
 * **Sabor Sem Excesso**: Uso estratégico de aromáticos (alho-poró, cebola, especiarias) e Reação de Maillard (grelha/air fryer) para extrair o máximo de sabor natural sem sódio ou gordura ruim.
 
-* 🧪 `src/ativacao_nutrientes.py` → **Inteligência Nutricional:** Mapeia regras de ativação, técnicas de cocção (vapor, churrasqueira, air fryer) e aromáticos para máxima absorção e sabor.
-
-
- Módulo de Inteligência Nutricional & Biodisponibilidade
-
-> *"A culinária profissional combinada com a precisão dos algoritmos: o alimento como combustível limpo e de alta performance metabólica."*
-
-| Chef & Tecnologia | Churrasqueira & Cocção Seca | Sucos & Ativação de Vitamina C | Feijoada & Antinutrientes |
-| :---: | :---: | :---: | :---: |
-
-
 ---
 
-
-### 🎯 Pilares Nutricionais
-
-* **Ativação de Nutrientes (Biodisponibilidade)**: Parear vegetais verde-escuros com Vitamina C (limão) multiplica a absorção de ferro não-heme. Lipossolúveis (A, D, E, K) necessitam de fonte leve de gorduras boas (azeite/sementes).
-* **Saciedade Sem Excesso**: Volume gástrico com vegetais estruturais e fibras (couve-flor, alho-poró) para evitar picos de insulina e prolongar a saciedade.
-* **Sabor Sem Excesso**: Uso estratégico de aromáticos (alho-poró, cebola, especiarias) e Reação de Maillard (grelha/air fryer) para extrair o máximo de sabor natural sem sódio ou gordura ruim.
-
-* 🧪 `src/ativacao_nutrientes.py` → **Inteligência Nutricional:** Mapeia regras de ativação, técnicas de cocção (vapor, churrasqueira, air fryer) e aromáticos para máxima absorção e sabor.
-
-| *O Chef Tecnológico* | *Reação de Maillard sem excessos* | *Sucos funcionais e extratos* | *Remolho e biodisponibilidade* |
-
-### 🎯 Pilares Nutricionais
-
-* **Ativação de Nutrientes (Biodisponibilidade)**: Parear vegetais verde-escuros com Vitamina C (limão) multiplica a absorção de ferro não-heme. Lipossolúveis (A, D, E, K) necessitam de fonte leve de gorduras boas (azeite/sementes).
-* **Saciedade Sem Excesso**: Volume gástrico com vegetais estruturais e fibras (couve-flor, alho-poró) para evitar picos de insulina e prolongar a saciedade.
-* **Sabor Sem Excesso**: Uso estratégico de aromáticos (alho-poró, cebola, especiarias) e Reação de Maillard (grelha/air fryer) para extrair o máximo de sabor natural sem sódio ou gordura ruim.
-
-* 🧪 `src/ativacao_nutrientes.py` → **Inteligência Nutricional:** Mapeia regras de ativação, técnicas de cocção (vapor, churrasqueira, air fryer) e aromáticos para máxima absorção e sabor.
----
-### ⚡ Palmilha Inteligente (ESP32-C3)
+## ⚡ PALMILHA INTELIGENTE (ESP32-C3)
 * 🔗 **Simulação Wokwi:** [Acessar Projeto Interativo](https://wokwi.com/projects/473442608376337409)
 * 📄 **Relatório Técnico:** Ver `docs/RELATORIO_PALMILHA_WOKWI.md`.
 * 🧬 **Visão Científica:** [Inteligência Artificial na Ciência e Saúde](./documentos/CIENCIA_E_IA.md)
+
+---
+
+## 💻 COMO EXECUTAR NO PYDROID 3 (ANDROID)
+
+1. 📲 Abra o **Pydroid 3** no celular.
+2. 📂 Selecione o arquivo `calculadora_dia.py`.
+3. ▶️ Toque no botão amarelo de **Play** para rodar.
+4. 🔢 Insira os dados do seu dia e receba o diagnóstico de déficit calórico instantâneo!
