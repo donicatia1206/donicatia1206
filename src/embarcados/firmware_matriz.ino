@@ -1,0 +1,155 @@
+include <WiFi.h>
+#include <WebServer.h>
+
+const char* ssid = "Wokwi-GUEST";
+const char* password = "";
+
+WebServer server(80);
+
+const char HTML_PAGE[] PROGMEM = R"rawliteral(
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 5 Elemento - Painel Web</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #121212; color: #ffffff; margin: 20px; }
+        .card { background-color: #1e1e1e; padding: 20px; border-radius: 8px; max-width: 500px; margin: auto; }
+        h2, h3 { text-align: center; color: #f1c40f; }
+        label { display: block; margin-top: 10px; font-weight: bold; }
+        input, select, button { width: 100%; padding: 8px; margin-top: 5px; border-radius: 4px; border: none; box-sizing: border-box; }
+        button { background-color: #f1c40f; color: #000; font-weight: bold; cursor: pointer; margin-top: 15px; }
+        .alimentos-grid { display: grid; grid-template-columns: 1fr; gap: 5px; max-height: 200px; overflow-y: auto; background: #2a2a2a; padding: 8px; border-radius: 4px; margin-top: 5px; }
+        .alimento-item { display: flex; align-items: center; justify-content: space-between; font-size: 0.85em; }
+        .alimento-item input { width: auto; }
+        .resultado { margin-top: 20px; padding: 10px; border-radius: 4px; display: none; text-align: center; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>PROJETO 5 ELEMENTO</h2>
+    <p style="text-align: center; font-size: 0.9em; color: #aaa;">Calculadora de Deficit Calorico Embarcada</p>
+
+    <label>Selecione os Alimentos (Porcoes Medias):</label>
+    <div class="alimentos-grid">
+        <div class="alimento-item"><span>Cafe c/ Acucar (60 kcal)</span><input type="checkbox" value="60" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Cafe c/ Leite (110 kcal)</span><input type="checkbox" value="110" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Achocolatado c/ Leite (180 kcal)</span><input type="checkbox" value="180" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Pao c/ Manteiga (200 kcal)</span><input type="checkbox" value="200" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Pao Presunto e Queijo (310 kcal)</span><input type="checkbox" value="310" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Pao de Alho (2 un - 420 kcal)</span><input type="checkbox" value="420" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Bolo Caseiro (2 fatias - 320 kcal)</span><input type="checkbox" value="320" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Refrigerante Copo (85 kcal)</span><input type="checkbox" value="85" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Cerveja (3 latas - 450 kcal)</span><input type="checkbox" value="450" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Coxinha / Pastel (2 un - 600 kcal)</span><input type="checkbox" value="600" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Cachorro-Quente Completo (400 kcal)</span><input type="checkbox" value="400" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Arroz + Feijao (205 kcal)</span><input type="checkbox" value="205" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Bife Grelhado (200 kcal)</span><input type="checkbox" value="200" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Frango Assado (220 kcal)</span><input type="checkbox" value="220" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Feijoada (350 kcal)</span><input type="checkbox" value="350" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Lasanha (380 kcal)</span><input type="checkbox" value="380" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Macarronada (320 kcal)</span><input type="checkbox" value="320" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Churrasco Completo (500g - 1350 kcal)</span><input type="checkbox" value="1350" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Linguica Toscana (2 gomos - 500 kcal)</span><input type="checkbox" value="500" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Salada de Maionese (250 kcal)</span><input type="checkbox" value="250" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Batata Gratinada (220 kcal)</span><input type="checkbox" value="220" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Farofa Temperada (150 kcal)</span><input type="checkbox" value="150" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Batata Frita Porcao (300 kcal)</span><input type="checkbox" value="300" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>X-Bacon (650 kcal)</span><input type="checkbox" value="650" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>X-Calota Porcao (850 kcal)</span><input type="checkbox" value="850" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Pizza Porcao (3 fatias - 900 kcal)</span><input type="checkbox" value="900" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Milk-shake (450 kcal)</span><input type="checkbox" value="450" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Sorvete Porcao (3 bolas - 350 kcal)</span><input type="checkbox" value="350" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Pudim de Leite (280 kcal)</span><input type="checkbox" value="280" onchange="somarAlimentos()"></div>
+        <div class="alimento-item"><span>Torta de Limao (320 kcal)</span><input type="checkbox" value="320" onchange="somarAlimentos()"></div>
+    </div>
+
+    <label for="passos">Passos do Dia:</label>
+    <input type="number" id="passos" value="8000">
+
+    <label for="consumo">Consumo Calorico Total (kcal):</label>
+    <input type="number" id="consumo" value="0">
+
+    <label for="met">Atividade MET:</label>
+    <select id="met">
+        <option value="3.0">Caminhada Leve (3.0 MET)</option>
+        <option value="4.5">Natacao Leve (4.5 MET)</option>
+        <option value="6.0">Corrida Moderada (6.0 MET)</option>
+        <option value="8.0">Futebol / Ciclismo Intenso (8.0 MET)</option>
+    </select>
+
+    <label for="tempo">Tempo da Atividade (minutos):</label>
+    <input type="number" id="tempo" value="45">
+
+    <button onclick="calcular()">Calcular Balanco</button>
+
+    <div id="resultado" class="resultado"></div>
+</div>
+
+<script>
+function somarAlimentos() {
+    let total = 0;
+    const checkboxes = document.querySelectorAll('.alimentos-grid input[type="checkbox"]:checked');
+    checkboxes.forEach(cb => { total += parseFloat(cb.value); });
+    document.getElementById('consumo').value = total;
+}
+
+function calcular() {
+    const pesoBase = 131.95;
+    const tmbBase = 2216.0;
+
+    const passos = parseFloat(document.getElementById('passos').value) || 0;
+    const consumo = parseFloat(document.getElementById('consumo').value) || 0;
+    const met = parseFloat(document.getElementById('met').value) || 0;
+    const tempo = parseFloat(document.getElementById('tempo').value) || 0;
+
+    const gastoPassos = passos * 0.05;
+    const gastoMet = met * pesoBase * (tempo / 60.0);
+    const gastoTotal = tmbBase + gastoPassos + gastoMet;
+    const balanco = consumo - gastoTotal;
+
+    const resDiv = document.getElementById('resultado');
+    resDiv.style.display = 'block';
+
+    let cor = balanco < 0 ? '#00e676' : '#ff5252';
+    let status = balanco < 0 ? 'Deficit Calorico' : 'Superavit Calorico';
+
+    resDiv.innerHTML = `
+        <h3>Resultado do Dia</h3>
+        <p>Gasto Total Estimado: <b>${gastoTotal.toFixed(1)} kcal</b></p>
+        <p style="color: ${cor};">${status}: <b>${balanco.toFixed(1)} kcal</b></p>
+    `;
+}
+</script>
+</body>
+</html>
+)rawliteral";
+
+void handleRoot() {
+  server.send(200, "text/html", HTML_PAGE);
+}
+
+void setup() {
+  Serial.begin(115200);
+  
+  WiFi.begin(ssid, password);
+  Serial.print("Conectando ao WiFi");
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  
+  Serial.println("");
+  Serial.print("Conectado! IP do ESP32: ");
+  Serial.println(WiFi.localIP());
+
+  server.on("/", handleRoot);
+  server.begin();
+  Serial.println("Servidor Web Iniciado!");
+}
+
+void loop() {
+  server.handleClient();
+}
