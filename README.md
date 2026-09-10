@@ -20,6 +20,16 @@
 <p align="center">
   <img src="./assets/1786042071104.png" alt="Diagrama Técnico - Palmilha Ortopédica Inteligente" width="500">
 </p>
+<p align="center">
+  <img src="./assets/1786842071104.png" alt="Diagrama Técnico - Palmilha Ortopédica Inteligente" width="500" /><br><br>
+  <a href="https://donicatia1206.github.io/donicatia1206/">
+    <img src="./assets/Gemini_Generated_Image_68raqn68raqn68ra.jpg" alt="Painel Cyberpunk Calculadora" width="500" />
+  </a>
+</p>
+
+<p align="center">
+  👉 <b><a href="https://donicatia1206.github.io/donicatia1206/">Clique aqui para acessar o Painel Interativo Online</a></b>
+</p>
 
 *🔥 A fusão entre bioengenharia, eletrônica e algoritmos para otimização do movimento humano. 🔥*
 
