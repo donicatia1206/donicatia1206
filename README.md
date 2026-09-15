@@ -123,3 +123,29 @@
 2. 📂 Selecione o arquivo `calculadora_dia.py`.
 3. ▶️ Toque no botão amarelo de **Play** para rodar.
 4. 🔢 Insira os dados do seu dia e receba o diagnóstico de déficit calórico instantâneo!
+---
+
+### 💧 SINTETIZADOR BIOMÉTRICO DE LÁGRIMAS
+
+> *"Lágrimas são a linguagem silenciosa do sistema quando a lógica pura não basta."*
+
+<p align="center">
+  <a href="https://donicatia1206.github.io/lagrimas_emocionais/">
+    <img src="https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/Sintetizador%20Biom%C3%A9trico%20de%20L%C3%A1grimas.png" alt="Sintetizador Biométrico de Lágrimas" width="100%" style="border-radius: 10px;">
+  </a>
+</p>
+
+Uma experimentação visual que mapeia a química, a física e a emoção do olhar em código interativo.
+
+* **Tristeza:** Descompressão de cortisol e alívio do sistema.
+* **Alegria:** Transbordamento de endorfina e gratidão.
+* **Raiva:** Descarga adrenérgica e pressão ocular.
+* **Paz:** Homeostase e serenidade.
+
+<p align="center">
+  <a href="https://donicatia1206.github.io/lagrimas_emocionais/">
+    <img src="https://img.shields.io/badge/EXPRESSE_O_OLHAR-Acessar_Simulador-00f2fe?style=for-the-badge&logo=githubpages&logoColor=black" alt="Botão Acessar Simulador">
+  </a>
+</p>
+
+👉 **[Clique aqui para acessar o Sintetizador Biométrico de Lágrimas Online](https://donicatia1206.github.io/lagrimas_emocionais/)**
