@@ -1,5 +1,8 @@
 <div align="center">
 
+> *"Portanto, quer comais quer bebais, ou façais qualquer outra coisa, fazei tudo para a glória de Deus."*  
+> **— 1 Coríntios 10:31**
+
 # 🌌 Donizete dos Santos | Projeto 5º Elemento
 *Desenvolvedor, Entusiasta de IoT & Alquimia Tecnológica*
 
@@ -27,30 +30,49 @@
 
 ### 🍳 Jornada & Visão Tecnológica
 
+<div align="center">
+
 | Origem da Jornada | Chef Tecnólogo | Cocção Precisa |
 | :---: | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/origem.jpg" width="220"> | <img src="https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/chef.jpg" width="220"> | <img src="https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/coccao.jpg" width="220"> |
+| <img src="assets/origem.jpg" width="220" onerror="this.src='https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/origem.jpg'"> | <img src="assets/chef.jpg" width="220" onerror="this.src='https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/chef.jpg'"> | <img src="assets/coccao.jpg" width="220" onerror="this.src='https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/coccao.jpg'"> |
+
+| Vitamina C & Absorção | Feijoada & Antinutrientes |
+| :---: | :---: |
+| <img src="assets/vitamina_c.jpg" width="220" onerror="this.src='https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/vitamina_c.jpg'"> | <img src="assets/feijoada.jpg" width="220" onerror="this.src='https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/feijoada.jpg'"> |
+
+</div>
 
 ---
 
 ## 👟 PALMILHA INTELIGENTE (ESP32-C3 & IoT)
 
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/palmilha_diagrama.png" alt="Esquemático Palmilha Inteligente" width="90%" style="border-radius: 10px;" onerror="this.src='assets/palmilha_diagrama.png'">
+
+</div>
+
 * 🔗 **Simulação Virtual:** [Acessar Projeto Wokwi](https://wokwi.com/)
 * 📄 **Relatório Técnico:** [Ver Documentação da Palmilha](https://github.com/donicatia1206/PROJETO_5O_ELEMENTO)
-* 🧠 **Visão Científica:** *Inteligência Biomecânica em Sensores de Saúde.*
+* 🧠 **Visão Científica:** *A fusão entre bioengenharia, eletrônica e algoritmos para otimização do movimento humano.*
 
 ---
 
-## 📲 COMO EXECUÇÃO NO PYDROID 3 (ANDROID)
+## 📊 CALCULADORA DE DÉFICIT CALÓRICO & PAINEL
 
-1. Abra o **Pydroid 3** no celular.
-2. Selecione o arquivo `calculadora_dia.py`.
-3. Toque no botão amarelo de **Play** para rodar.
-4. Insira os dados do seu dia e receba o diagnóstico de déficit calórico instantâneo!
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/calculadora_interface.png" alt="Painel Interativo de Déficit Calórico" width="90%" style="border-radius: 10px;" onerror="this.src='assets/calculadora_interface.png'">
+
+<br><br>
+
+👉 **[Clique aqui para acessar o Painel Interativo Online](https://donicatia1206.github.io/donicatia1206/)**
+
+</div>
 
 ---
 
-## 💧 SINTETIZADOR BIOMÉTRICO E POÉTICO DA ALMA
+## 💧 SINTETIZADOR BIOMÉTRICO E POÉTICO DA ALMA (PROJETO 5º ELEMENTO)
 
 > *"Lágrimas são a linguagem silenciosa do sistema quando a lógica pura não basta."*
 
