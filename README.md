@@ -58,7 +58,7 @@
 
 <div align="center">
 
-<img src="assets/Gemini_Generated_Image_6braqn6braqn6bra.jpg" alt="Painel Interativo de Déficit Calórico" width="90%" style="border-radius: 10px;">
+<img src="assets/Gemini_Generated_Image_68raqn6braqn6bra.jpg" alt="Painel Interativo de Déficit Calórico" width="90%" style="border-radius: 10px;">
 
 <br><br>
 
