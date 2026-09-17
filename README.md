@@ -32,9 +32,9 @@
 
 <div align="center">
 
-| Vitamina C & Absorção | Feijoada & Antinutrientes |
-| :---: | :---: |
-| <img src="assets/suco%20verde%20(1).jpg" width="260"> | <img src="assets/,1feijoada%20(1).jpg" width="260"> |
+| Chef Tecnólogo | Vitamina C & Absorção | Feijoada & Antinutrientes |
+| :---: | :---: | :---: |
+| <img src="assets/Screenshot_20260316-002856.png" width="220"> | <img src="assets/suco%20verde%20(1).jpg" width="220"> | <img src="assets/,1feijoada%20(1).jpg" width="220"> |
 
 </div>
 
@@ -44,7 +44,7 @@
 
 <div align="center">
 
-<img src="assets/265f1f64-4244-496c-b92d-f40c0e4e7ee3.jpg" alt="Esquemático Palmilha Inteligente" width="90%" style="border-radius: 10px;">
+<img src="assets/1786042071104.png" alt="Esquemático Palmilha Inteligente" width="90%" style="border-radius: 10px;">
 
 </div>
 
