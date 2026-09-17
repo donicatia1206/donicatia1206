@@ -1,151 +1,70 @@
-# <p align="center">⚡ PROJETO 5º ELEMENTO — GEMINIDONI ⚡</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Meta--Perda--Peso--37kg-FF4500?style=for-the-badge&logo=target&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tecnologia-Python_3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Status-Em_Evolu%C3%A7%C3%A3o-32CD32?style=for-the-badge&logo=github&logoColor=white" />
-</p>
-
----
-
-> [!IMPORTANT]
-> *"Portanto, quer comais, quer bebais, ou façais outra qualquer coisa, fazei tudo para a glória de Deus."* — **1 Coríntios 10:31**
-
----
-
 <div align="center">
 
-### 👟 IDENTIDADE VISUAL & ENGENHARIA
-<p align="center">
-  <img src="./assets/1786042071104.png" alt="Diagrama Técnico - Palmilha Ortopédica Inteligente" width="500" /><br><br>
-    <a href="https://donicatia1206.github.io/donicatia1206/">
-    <img src="./assets/Gemini_Generated_Image_68raqn68raqn68ra.jpg" alt="Painel Cyberpunk Calculadora" width="500" />
-  </a>
-</p>
+# 🌌 Donizete dos Santos | Projeto 5º Elemento
+*Desenvolvedor, Entusiasta de IoT & Alquimia Tecnológica*
 
-<p align="center">
-  👉 <b><a href="https://donicatia1206.github.io/donicatia1206/">Clique aqui para acessar o Painel Interativo Online</a></b>
-</p>
-
-
-*🔥 A fusão entre bioengenharia, eletrônica e algoritmos para otimização do movimento humano. 🔥*
+[![GitHub Pages](https://img.shields.io/badge/PORTAL-GITHUB%20PAGES-00FFFF?style=for-the-badge&logo=github)](https://donicatia1206.github.io/lagrimas_emocionais/)
+[![Projetos GitHub](https://img.shields.io/badge/REPOSITÓRIOS-DONICATIA1206-FF8C00?style=for-the-badge&logo=github)](https://github.com/donicatia1206)
 
 </div>
 
 ---
 
-> [!NOTE]
-> 🎯 **OBJETIVO PRINCIPAL DO SISTEMA**  
-> Transformação física e saúde sustentável através da disciplina diária, alquimia alimentar e monitoramento de dados biométricos.
-> * 📉 **Meta:** Perda de 37,0 kg sem procedimentos cirúrgicos ou remédios caros.
-> * 📸 **Registro de Progresso:** Documentação visual (Antes / Depois) e acompanhamento contínuo.
-> * 👣 **Monitoramento Inteligente:** Análise de déficit calórico em tempo real via palmilha e scripts Python.
+## 🛠️ Arquitetura do Repositório & Ecossistema
+
+* **Scripts em Python (`.py`):**
+  * `calculadora_dia.py` $\rightarrow$ **Diagnóstico Diário:** Painel do padrão celular e taxa metabólica.
+  * `inteligencia_nutricional.py` $\rightarrow$ **Biodisponibilidade:** Mapeamento da absorção de micronutrientes.
+
+* **Guias de Alquimia Alimentar (`.md`):**
+  * Estruturas de digestão, performance metabólica e synergy de nutrientes.
 
 ---
 
-## 👤 PERFIL BIOMÉTRICO FIXO DONIZETE 
-| Parâmetro | Valor Registrado | Observação | Fotos de Referência |
-| :--- | :--- | :--- | :---: |
-| **Peso Inicial** | `131,95 kg` | Ponto de partida | <img src="assets/Screenshot_20260319-023549.png" width="85" height="110" style="object-fit: cover;"><br>*Origem (131,95 kg)* |
-| **Altura** | `1,85 m` (185 cm) | Altura fixa | |
-| **Idade** | `53 anos` | Métrica de cálculo | <img src="assets/Screenshot_20260316-002856.png" width="85" height="110" style="object-fit: cover;"><br>*Chef Tecnológico* |
-| **Sexo** | `Masculino ('M')` | Perfil metabólico | |
-| **Fórmula TMB** | `Mifflin-St Jeor` | Motor de cálculo base | |
+## 🧪 Módulo de Inteligência Nutricional & Biodisponibilidade
 
----
+> *"A sabedoria nutricional combinada com a precisão dos algoritmos transforma o alimento em combustível limpo para alta performance."*
 
-## 🧪 OS 5 ELEMENTOS DA ALQUIMIA ALIMENTAR
+### 👨‍🍳 Jornada & Visão Tecnológica
 
-> [!TIP]
-> 1. 🔥 **TERMOGÊNESE:** Ativação metabólica e queima contínua de gordura.
-> 2. 🧬 **NUTRIÇÃO:** Sinergia de macronutrientes (foco em alta proteína e densidade).
-> 3. 💧 **VOLUMIZAÇÃO:** Máxima saciedade pelo volume inteligente de fluidos e fibras.
-> 4. 📊 **TECNOLOGIA:** Controle matemático via Pydroid 3 e sensores de passos.
-> 5. 🎯 **EXECUÇÃO DISCIPLINADA:** Adesão rigorosa às metas diárias sem negociação.
-
----
-
-## ⚙️ ARQUITETURA DO REPOSITÓRIO
-
-### 🛠️ Scripts em Python (`.py`)
-* 🐍 `calculadora_dia.py` ➔ **Diagnóstico Diário:** Lê passos da palmilha, calcula TMB e mostra o balanço de calorias.
-* 🧪 `ALQUIMIA_PYTHON.py` ➔ **Motor Metabólico:** Calcula taxa de saciedade por volume e macronutrientes.
-* 🧪 `src/ativacao_nutrientes.py` ➔ **Inteligência Nutricional:** Mapeia regras de ativação, técnicas de cocção (vapor, churrasqueira, air fryer) e aromáticos para máxima absorção e sabor.
-
----
-
-### 📖 Guias de Alquimia Alimentar (`.md`)
-* 🍍 `HAK01_ABACAXI.md` ➔ Estratégia de digestão otimizada e saciedade rápida.
-* ⚡ `HAK02_METABOLISMO.md` ➔ Protocolo de aceleração metabólica.
-* 🥤 `SUCO_OPTIMIZER.md` ➔ Otimizador de hidratação e micronutrientes.
-* 🍨 `SOBREMESA_MOUSE.md` ➔ Hack doce de saciedade com impacto calórico reduzido.
-
----
-
-## 👨‍🍳 MÓDULO DE INTELIGÊNCIA NUTRICIONAL & BIODISPONIBILIDADE
-
-> *"A culinária profissional combinada com a precisão dos algoritmos: o alimento como combustível limpo e de alta performance metabólica."*
-
-### 📸 A Jornada & A Visão Tecnológica
-
-| Origem da Jornada | Chef Tecnológico | Cocção Seca |
+| Origem da Jornada | Chef Tecnólogo | Cocção Precisa |
 | :---: | :---: | :---: |
-| <img src="assets/Screenshot_20260319-023549.png" width="120" height="150" style="object-fit: cover;"> | <img src="assets/Screenshot_20260316-002856.png" width="120" height="150" style="object-fit: cover;"> | <img src="assets/churrasco_3 (1).jpg" width="120" height="150" style="object-fit: cover;"> |
-| *Ponto de Partida* | *Visão de Futuro* | *Reação de Maillard* |
-
-### 🥗 Alquimia & Ativação de Alimentos
-
-| Vitamina C & Ativação | Feijoada & Antinutrientes |
-| :---: | :---: |
-| <img src="assets/suco limão_siciliano (1).jpg" width="120" height="150" style="object-fit: cover;"> | <img src="assets/,1feijoada (1).jpg" width="120" height="150" style="object-fit: cover;"> |
-| *Sinergia e Extratos* | *Remolho e Digestividade* |
+| <img src="assets/origem.jpg" width="220" onerror="this.src='https://via.placeholder.com/220x150?text=Origem'"> | <img src="assets/chef.jpg" width="220" onerror="this.src='https://via.placeholder.com/220x150?text=Chef'"> | <img src="assets/coccao.jpg" width="220" onerror="this.src='https://via.placeholder.com/220x150?text=Coccao'"> |
 
 ---
 
-### 🎯 Pilares Nutricionais
+## 👟 Palmilha Inteligente (ESP32-C3 & IoT)
 
-* **Ativação de Nutrientes (Biodisponibilidade)**: Parear vegetais verde-escuros com Vitamina C (limão) multiplica a absorção de ferro não-heme. Lipossolúveis (A, D, E, K) necessitam de fonte leve de gorduras boas (azeite/sementes).
-* **Saciedade Sem Excesso**: Volume gástrico com vegetais estruturais e fibras (couve-flor, alho-poró) para evitar picos de insulina e prolongar a saciedade.
-* **Sabor Sem Excesso**: Uso estratégico de aromáticos (alho-poró, cebola, especiarias) e Reação de Maillard (grelha/air fryer) para extrair o máximo de sabor natural sem sódio ou gordura ruim.
-
----
-
-## ⚡ PALMILHA INTELIGENTE (ESP32-C3)
-* 🔗 **Simulação Wokwi:** [Acessar Projeto Interativo](https://wokwi.com/projects/473442608376337409)
-* 📄 **Relatório Técnico:** Ver `docs/RELATORIO_PALMILHA_WOKWI.md`.
-* 🧬 **Visão Científica:** [Inteligência Artificial na Ciência e Saúde](./documentos/CIENCIA_E_IA.md)
+* **Simulação Virtual:** Firmware ativo e sensores biológicos.
+* **Visão Científica:** Mapeamento de pressão e estabilidade motora.
 
 ---
 
-## 💻 COMO EXECUTAR NO PYDROID 3 (ANDROID)
+## 💧 Sintetizador Biométrico e Poético da Alma (Projeto 5º Elemento)
 
-1. 📲 Abra o **Pydroid 3** no celular.
-2. 📂 Selecione o arquivo `calculadora_dia.py`.
-3. ▶️ Toque no botão amarelo de **Play** para rodar.
-4. 🔢 Insira os dados do seu dia e receba o diagnóstico de déficit calórico instantâneo!
+<div align="center">
+
+<a href="https://donicatia1206.github.io/lagrimas_emocionais/">
+  <img src="https://raw.githubusercontent.com/donicatia1206/lagrimas_emocionais/main/assets/nascer_do%20_sol.png" alt="Nascer do Sol - Projeto 5º Elemento" width="90%" style="border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.8);">
+</a>
+
+<br><br>
+
+| 🌅 Nascer do Sol | 🟡 Gratidão | 🔵 Tristeza | 🔴 Lágrimas de Raiva |
+| :---: | :---: | :---: | :---: |
+| <img src="https://raw.githubusercontent.com/donicatia1206/lagrimas_emocionais/main/assets/nascer_do%20_sol.png" width="180"> | <img src="https://raw.githubusercontent.com/donicatia1206/lagrimas_emocionais/main/assets/gratidao.png" width="180"> | <img src="https://raw.githubusercontent.com/donicatia1206/lagrimas_emocionais/main/assets/tristeza.png" width="180"> | <img src="https://raw.githubusercontent.com/donicatia1206/lagrimas_emocionais/main/assets/lagrimas_raiva.png" width="180"> |
+
+<br>
+
+[![Testar Simulador Online](https://img.shields.io/badge/ACESSAR%20SIMULADOR%20ONLINE-GITHUB%20PAGES-00f2fe?style=for-the-badge&logo=githubpages&logoColor=black)](https://donicatia1206.github.io/lagrimas_emocionais/)
+
+</div>
+
 ---
 
-### 💧 SINTETIZADOR BIOMÉTRICO DE LÁGRIMAS
+<div align="center">
 
-> *"Lágrimas são a linguagem silenciosa do sistema quando a lógica pura não basta."*
+**Desenvolvido por Donizete (donigemini)**  
+*Porque sentir também é viver... ∞*
 
-<p align="center">
-  <a href="https://donicatia1206.github.io/lagrimas_emocionais/">
-    <img src="https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/Sintetizador%20Biom%C3%A9trico%20de%20L%C3%A1grimas.png" alt="Sintetizador Biométrico de Lágrimas" width="100%" style="border-radius: 10px;">
-  </a>
-</p>
-
-Uma experimentação visual que mapeia a química, a física e a emoção do olhar em código interativo.
-
-* **Tristeza:** Descompressão de cortisol e alívio do sistema.
-* **Alegria:** Transbordamento de endorfina e gratidão.
-* **Raiva:** Descarga adrenérgica e pressão ocular.
-* **Paz:** Homeostase e serenidade.
-
-<p align="center">
-  <a href="https://donicatia1206.github.io/lagrimas_emocionais/">
-    <img src="https://img.shields.io/badge/EXPRESSE_O_OLHAR-Acessar_Simulador-00f2fe?style=for-the-badge&logo=githubpages&logoColor=black" alt="Botão Acessar Simulador">
-  </a>
-</p>
-
-👉 **[Clique aqui para acessar o Sintetizador Biométrico de Lágrimas Online](https://donicatia1206.github.io/lagrimas_emocionais/)**
+</div>
