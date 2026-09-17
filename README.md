@@ -65,7 +65,6 @@
 👉 **[Clique aqui para acessar o Painel Interativo Online](https://donicatia1206.github.io/donicatia1206/)**
 
 </div>
-
 ---
 
 ## 💧 SINTETIZADOR BIOMÉTRICO E POÉTICO DA ALMA (PROJETO 5º ELEMENTO)
