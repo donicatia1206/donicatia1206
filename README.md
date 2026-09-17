@@ -32,13 +32,9 @@
 
 <div align="center">
 
-| Origem da Jornada | Chef Tecnólogo | Cocção Precisa |
-| :---: | :---: | :---: |
-| <img src="assets/origem.jpg" width="220" onerror="this.src='https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/origem.jpg'"> | <img src="assets/chef.jpg" width="220" onerror="this.src='https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/chef.jpg'"> | <img src="assets/coccao.jpg" width="220" onerror="this.src='https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/coccao.jpg'"> |
-
 | Vitamina C & Absorção | Feijoada & Antinutrientes |
 | :---: | :---: |
-| <img src="assets/vitamina_c.jpg" width="220" onerror="this.src='https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/vitamina_c.jpg'"> | <img src="assets/feijoada.jpg" width="220" onerror="this.src='https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/feijoada.jpg'"> |
+| <img src="assets/suco%20verde%20(1).jpg" width="260"> | <img src="assets/,1feijoada%20(1).jpg" width="260"> |
 
 </div>
 
@@ -48,7 +44,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/palmilha_diagrama.png" alt="Esquemático Palmilha Inteligente" width="90%" style="border-radius: 10px;" onerror="this.src='assets/palmilha_diagrama.png'">
+<img src="assets/265f1f64-4244-496c-b92d-f40c0e4e7ee3.jpg" alt="Esquemático Palmilha Inteligente" width="90%" style="border-radius: 10px;">
 
 </div>
 
@@ -62,7 +58,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/calculadora_interface.png" alt="Painel Interativo de Déficit Calórico" width="90%" style="border-radius: 10px;" onerror="this.src='assets/calculadora_interface.png'">
+<img src="assets/Gemini_Generated_Image_6braqn6braqn6bra.jpg" alt="Painel Interativo de Déficit Calórico" width="90%" style="border-radius: 10px;">
 
 <br><br>
 
