@@ -10,10 +10,10 @@
 
 ---
 
-## 🛠️ Arquitetura do Repositório & Ecossistema
+## ⚙️ ARQUITETURA DO REPOSITÓRIO
 
 * **Scripts em Python (`.py`):**
-  * `calculadora_dia.py` $\rightarrow$ **Diagnóstico Diário:** Painel do padrão celular e taxa metabólica.
+  * `calculadora_dia.py` $\rightarrow$ **Diagnóstico Diário:** Painel do padrão celular, déficit calórico e taxa metabólica.
   * `inteligencia_nutricional.py` $\rightarrow$ **Biodisponibilidade:** Mapeamento da absorção de micronutrientes.
 
 * **Guias de Alquimia Alimentar (`.md`):**
@@ -21,31 +21,43 @@
 
 ---
 
-## 🧪 Módulo de Inteligência Nutricional & Biodisponibilidade
+## 👨‍🍳 MÓDULO DE INTELIGÊNCIA NUTRICIONAL & BIODISPONIBILIDADE
 
 > *"A sabedoria nutricional combinada com a precisão dos algoritmos transforma o alimento em combustível limpo para alta performance."*
 
-### 👨‍🍳 Jornada & Visão Tecnológica
+### 🍳 Jornada & Visão Tecnológica
 
 | Origem da Jornada | Chef Tecnólogo | Cocção Precisa |
 | :---: | :---: | :---: |
-| <img src="assets/origem.jpg" width="220" onerror="this.src='https://via.placeholder.com/220x150?text=Origem'"> | <img src="assets/chef.jpg" width="220" onerror="this.src='https://via.placeholder.com/220x150?text=Chef'"> | <img src="assets/coccao.jpg" width="220" onerror="this.src='https://via.placeholder.com/220x150?text=Coccao'"> |
+| <img src="https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/origem.jpg" width="220"> | <img src="https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/chef.jpg" width="220"> | <img src="https://raw.githubusercontent.com/donicatia1206/donicatia1206/main/assets/coccao.jpg" width="220"> |
 
 ---
 
-## 👟 Palmilha Inteligente (ESP32-C3 & IoT)
+## 👟 PALMILHA INTELIGENTE (ESP32-C3 & IoT)
 
-* **Simulação Virtual:** Firmware ativo e sensores biológicos.
-* **Visão Científica:** Mapeamento de pressão e estabilidade motora.
+* 🔗 **Simulação Virtual:** [Acessar Projeto Wokwi](https://wokwi.com/)
+* 📄 **Relatório Técnico:** [Ver Documentação da Palmilha](https://github.com/donicatia1206/PROJETO_5O_ELEMENTO)
+* 🧠 **Visão Científica:** *Inteligência Biomecânica em Sensores de Saúde.*
 
 ---
 
-## 💧 Sintetizador Biométrico e Poético da Alma (Projeto 5º Elemento)
+## 📲 COMO EXECUÇÃO NO PYDROID 3 (ANDROID)
+
+1. Abra o **Pydroid 3** no celular.
+2. Selecione o arquivo `calculadora_dia.py`.
+3. Toque no botão amarelo de **Play** para rodar.
+4. Insira os dados do seu dia e receba o diagnóstico de déficit calórico instantâneo!
+
+---
+
+## 💧 SINTETIZADOR BIOMÉTRICO E POÉTICO DA ALMA
+
+> *"Lágrimas são a linguagem silenciosa do sistema quando a lógica pura não basta."*
 
 <div align="center">
 
 <a href="https://donicatia1206.github.io/lagrimas_emocionais/">
-  <img src="https://raw.githubusercontent.com/donicatia1206/lagrimas_emocionais/main/assets/nascer_do%20_sol.png" alt="Nascer do Sol - Projeto 5º Elemento" width="90%" style="border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.8);">
+  <img src="https://raw.githubusercontent.com/donicatia1206/lagrimas_emocionais/main/assets/nascer_do%20_sol.png" alt="Nascer do Sol - Projeto 5º Elemento" width="90%" style="border-radius: 10px; box-shadow: 0 8px 25px rgba(0,0,0,0.8);">
 </a>
 
 <br><br>
@@ -56,7 +68,7 @@
 
 <br>
 
-[![Testar Simulador Online](https://img.shields.io/badge/ACESSAR%20SIMULADOR%20ONLINE-GITHUB%20PAGES-00f2fe?style=for-the-badge&logo=githubpages&logoColor=black)](https://donicatia1206.github.io/lagrimas_emocionais/)
+[![Acessar Simulador Online](https://img.shields.io/badge/EXPRESSE__O__OLHAR-Acessar__Simulador-00f2fe?style=for-the-badge&logo=githubpages&logoColor=black)](https://donicatia1206.github.io/lagrimas_emocionais/)
 
 </div>
 
