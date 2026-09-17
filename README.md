@@ -58,14 +58,13 @@
 
 <div align="center">
 
-<img src="assets/Gemini_Generated_Image_68raqn6braqn6bra.jpg" alt="Painel Interativo de Déficit Calórico" width="90%" style="border-radius: 10px;">
+<img src="assets/Gemini_Generated_Image_68raqn68raqn68ra.jpg" alt="Painel Interativo de Déficit Calórico" width="90%" style="border-radius: 10px;">
 
 <br><br>
 
 👉 **[Clique aqui para acessar o Painel Interativo Online](https://donicatia1206.github.io/donicatia1206/)**
 
 </div>
----
 
 ## 💧 SINTETIZADOR BIOMÉTRICO E POÉTICO DA ALMA (PROJETO 5º ELEMENTO)
 
