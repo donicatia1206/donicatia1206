@@ -1,4 +1,24 @@
-﻿<!DOCTYPE html>
+#include <WiFi.h>
+#include <WebServer.h>
+
+const char* ssid = "Wokwi-GUEST";
+const char* password = "";
+
+WebServer server(80);
+
+// Hardware - Palmilha (FSR 402 + Actuador Magnético)
+const int PIN_FSR = 34;        // ADC para o FSR 402 no calcanhar
+const int PIN_MOSFET = 25;     // PWM para o MOSFET / Amortecimento
+const int LIMIAR_PASSO = 2000; // Sensibilidade de pressão para contar o passo
+
+// Variáveis de Telemetria
+volatile unsigned long totalPassos = 0;
+bool passoEmAndamento = false;
+int ultimaLeituraFSR = 0;
+
+// Dashboard Cyberpunk Integrado (Código do GitHub + Conexão REST)
+const char HTML_PAGE[] PROGMEM = R"rawliteral(
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -39,11 +59,26 @@
             font-size: 0.95em; 
             color: #ffd166; 
             margin-top: 0; 
-            margin-bottom: 25px;
+            margin-bottom: 20px;
             font-weight: 600;
             letter-spacing: 1px;
         }
         
+        /* STATUS DA PALMILHA */
+        .telemetria-box {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background: #080d1a;
+            border: 1px solid #00f0ff;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 240, 255, 0.15);
+        }
+        .telemetria-item { text-align: center; }
+        .telemetria-val { font-size: 1.5em; font-weight: bold; color: #00f0ff; }
+
         /* LAYOUT EM DUAS COLUNAS */
         .grid-container {
             display: table;
@@ -55,32 +90,28 @@
             vertical-align: top;
             width: 50%;
         }
-        .coluna-esquerda {
-            padding-right: 15px;
-        }
-        .coluna-direita {
-            padding-left: 15px;
-        }
+        .coluna-esquerda { padding-right: 15px; }
+        .coluna-direita { padding-left: 15px; }
 
         label { 
             display: block; 
-            margin-top: 12px; 
+            margin-top: 10px; 
             font-weight: bold; 
             color: #00f0ff; 
-            font-size: 0.9em;
+            font-size: 0.85em;
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
         input, select { 
             width: 100%; 
-            padding: 10px 12px; 
-            margin-top: 5px; 
+            padding: 8px 10px; 
+            margin-top: 4px; 
             border-radius: 8px; 
             border: 1px solid #00b4d8; 
             box-sizing: border-box; 
             background-color: #080d1a; 
             color: #ffffff; 
-            font-size: 0.95em;
+            font-size: 0.9em;
             outline: none;
             transition: 0.3s;
         }
@@ -93,11 +124,11 @@
         .alimentos-grid { 
             display: grid; 
             grid-template-columns: 1fr; 
-            gap: 6px; 
-            max-height: 290px; 
+            gap: 5px; 
+            max-height: 280px; 
             overflow-y: auto; 
             background: #080d1a; 
-            padding: 12px; 
+            padding: 10px; 
             border-radius: 8px; 
             margin-top: 6px; 
             border: 1px solid #00b4d8; 
@@ -106,8 +137,8 @@
             display: flex; 
             align-items: center; 
             justify-content: space-between; 
-            font-size: 0.85em; 
-            padding: 5px 8px;
+            font-size: 0.82em; 
+            padding: 4px 6px;
             border-bottom: 1px solid #101b35;
             background: rgba(255,255,255,0.02);
             border-radius: 4px;
@@ -121,11 +152,11 @@
             color: #080d1a; 
             font-weight: 800; 
             cursor: pointer; 
-            margin-top: 20px; 
-            padding: 14px;
+            margin-top: 18px; 
+            padding: 12px;
             border: none; 
             border-radius: 8px;
-            font-size: 1.1em; 
+            font-size: 1em; 
             text-transform: uppercase;
             letter-spacing: 1.5px;
             box-shadow: 0 0 15px rgba(0, 240, 255, 0.4);
@@ -139,8 +170,8 @@
 
         /* PAINEL DE RESULTADO */
         .resultado { 
-            margin-top: 25px; 
-            padding: 18px; 
+            margin-top: 20px; 
+            padding: 15px; 
             border-radius: 10px; 
             display: none; 
             text-align: center; 
@@ -148,8 +179,8 @@
             border: 1.5px solid #00f0ff; 
             box-shadow: 0 0 15px rgba(0,240,255,0.25);
         }
-        .resultado h3 { color: #ffd166; margin-top: 0; font-size: 1.2em; text-transform: uppercase; letter-spacing: 1px; }
-        .res-linha { display: flex; justify-content: space-around; margin: 10px 0; font-size: 1.05em; }
+        .resultado h3 { color: #ffd166; margin-top: 0; font-size: 1.1em; text-transform: uppercase; letter-spacing: 1px; }
+        .res-linha { display: flex; justify-content: space-around; margin: 8px 0; font-size: 1em; }
     </style>
 </head>
 <body>
@@ -157,6 +188,18 @@
 <div class="card">
     <h2>⚡ PROJETO 5º ELEMENTO</h2>
     <p class="sub">PAINEL DE BALANÇO ENERGÉTICO EMBARCADO</p>
+
+    <!-- BARRA DE TELEMETRIA DA PALMILHA -->
+    <div class="telemetria-box">
+        <div class="telemetria-item">
+            <span style="font-size:0.75em; color:#ffd166;">PASSOS CONTADOS (HARDWARE)</span>
+            <div id="livePassos" class="telemetria-val">0</div>
+        </div>
+        <div class="telemetria-item">
+            <span style="font-size:0.75em; color:#00f0ff;">PRESSÃO FSR 402 (ADC)</span>
+            <div id="liveFsr" class="telemetria-val" style="color:#ffd166;">0</div>
+        </div>
+    </div>
 
     <div class="grid-container">
         <!-- COLUNA ESQUERDA: ALIMENTAÇÃO -->
@@ -198,7 +241,6 @@
 
         <!-- COLUNA DIREITA: ATIVIDADES E CÁLCULO -->
         <div class="coluna coluna-direita">
-            <!-- AVALIAÇÃO INDIVIDUAL -->
             <label style="color:#ffd166; border-bottom: 1px solid #ffd166; padding-bottom: 2px;">👤 Avaliação Individual:</label>
             <div style="display: flex; gap: 6px;">
                 <div style="flex: 1;">
@@ -225,8 +267,8 @@
             <label for="consumo">Consumo Calórico Total (kcal):</label>
             <input type="number" id="consumo" value="0">
 
-            <label for="passos">Passos do Dia:</label>
-            <input type="number" id="passos" value="8000">
+            <label for="passos">Passos do Dia (Ajuste Manual se necessário):</label>
+            <input type="number" id="passos" value="0">
 
             <label for="met">Atividade Física (MET):</label>
             <select id="met">
@@ -246,7 +288,7 @@
         </div>
     </div>
 
-    <!-- ÁREA DE RESULTADO (ABAIXO DAS DUAS COLUNAS) -->
+    <!-- ÁREA DE RESULTADO -->
     <div id="resultado" class="resultado"></div>
 </div>
 
@@ -258,14 +300,37 @@ function somarAlimentos() {
     document.getElementById('consumo').value = total;
 }
 
+// Sincroniza os passos da palmilha via API do ESP32
+async function sincronizarHardware() {
+    try {
+        const res = await fetch('/api/dados');
+        if (res.ok) {
+            const data = await res.json();
+            document.getElementById('livePassos').innerText = data.passos;
+            document.getElementById('liveFsr').innerText = data.fsr;
+            
+            // Atualiza o campo de input de passos automaticamente se estiver zerado ou com dados do hardware
+            const inputPassos = document.getElementById('passos');
+            if (inputPassos.dataset.manual !== "true") {
+                inputPassos.value = data.passos;
+            }
+        }
+    } catch(e) {}
+}
+
+document.getElementById('passos').addEventListener('input', function() {
+    this.dataset.manual = "true"; // Se digitar manualmente, congela o auto-fill
+});
+
+setInterval(sincronizarHardware, 1000);
+
 function calcular() {
-    // Leituras dos dados biométricos individuais
     const sexo = document.getElementById('sexo').value;
     const peso = parseFloat(document.getElementById('peso').value) || 0;
     const altura = parseFloat(document.getElementById('altura').value) || 0;
     const idade = parseFloat(document.getElementById('idade').value) || 0;
 
-    // Cálculo dinâmico da TMB (Fórmula Mifflin-St Jeor)
+    // Fórmula Mifflin-St Jeor mantida exatamente como no seu GitHub
     let tmbBase = (10 * peso) + (6.25 * altura) - (5 * idade);
     tmbBase += (sexo === 'M') ? 5 : -161;
 
@@ -301,3 +366,52 @@ function calcular() {
 </script>
 </body>
 </html>
+)rawliteral";
+
+void handleRoot() {
+  server.send(200, "text/html", HTML_PAGE);
+}
+
+void handleApiDados() {
+  String json = "{\"passos\":" + String(totalPassos) + ",\"fsr\":" + String(ultimaLeituraFSR) + "}";
+  server.send(200, "application/json", json);
+}
+
+void setup() {
+  Serial.begin(115200);
+
+  pinMode(PIN_FSR, INPUT);
+  pinMode(PIN_MOSFET, OUTPUT);
+
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+  }
+
+  Serial.println("Conectado! IP do ESP32: " + WiFi.localIP().toString());
+
+  server.on("/", handleRoot);
+  server.on("/api/dados", handleApiDados);
+  server.begin();
+}
+
+void loop() {
+  server.handleClient();
+
+  // Leitura do FSR 402 no calcanhar
+  ultimaLeituraFSR = analogRead(PIN_FSR);
+
+  // Amortecimento Magnético
+  int pwmVal = map(ultimaLeituraFSR, 0, 4095, 0, 255);
+  analogWrite(PIN_MOSFET, pwmVal);
+
+  // Validação do passo por pressão
+  if (ultimaLeituraFSR > LIMIAR_PASSO && !passoEmAndamento) {
+    passoEmAndamento = true;
+    totalPassos++;
+  } else if (ultimaLeituraFSR < (LIMIAR_PASSO - 400) && passoEmAndamento) {
+    passoEmAndamento = false;
+  }
+
+  delay(20);
+}
