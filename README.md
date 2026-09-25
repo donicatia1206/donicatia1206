@@ -1,16 +1,15 @@
 <div align="center">
 
-> *"Portanto, quer comais quer bebais, ou façais qualquer outra coisa, fazei tudo para a glória de Deus."*  
-> **— 1 Coríntios 10:31**
+![1 Coríntios 10:31](corintios3d.png)
 
-# 🌌 Donizete dos Santos | Projeto 5º Elemento
+# Donizete dos Santos | Projeto 5º Elemento
 *Desenvolvedor, Entusiasta de IoT & Alquimia Tecnológica*
 
 [![Balanço Energético](https://img.shields.io/badge/PORTAL-Balanço_Energético-00f2fe?style=for-the-badge&logo=githubpages&logoColor=black)](https://donicatia1206.github.io/donicatia1206/)
 [![Sintetizador IA](https://img.shields.io/badge/SIMULADOR-Sintetizador_IA-f3ba2f?style=for-the-badge&logo=render&logoColor=black)](https://donicatia1206.github.io/CAPTAIN_PLANET_PROJECT/)
 [![Portais da Alma](https://img.shields.io/badge/MOSAICO-Portais_da_Alma-ff007f?style=for-the-badge&logo=artstation&logoColor=white)](https://donicatia1206.github.io/lagrimas_emocionais/)
-</div>
 
+</div>
 ---
 
 ## ⚙️ ARQUITETURA DO REPOSITÓRIO
