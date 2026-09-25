@@ -6,9 +6,9 @@
 # 🌌 Donizete dos Santos | Projeto 5º Elemento
 *Desenvolvedor, Entusiasta de IoT & Alquimia Tecnológica*
 
-[![GitHub Pages](https://img.shields.io/badge/PORTAL-GITHUB%20PAGES-00FFFF?style=for-the-badge&logo=github)](https://donicatia1206.github.io/lagrimas_emocionais/)
-[![Projetos GitHub](https://img.shields.io/badge/REPOSITÓRIOS-DONICATIA1206-FF8C00?style=for-the-badge&logo=github)](https://github.com/donicatia1206)
-
+[![Balanço Energético](https://img.shields.io/badge/PORTAL-Balanço_Energético-00f2fe?style=for-the-badge&logo=githubpages&logoColor=black)](https://donicatia1206.github.io/donicatia1206/)
+[![Sintetizador IA](https://img.shields.io/badge/SIMULADOR-Sintetizador_IA-f3ba2f?style=for-the-badge&logo=render&logoColor=black)](https://donicatia1206.github.io/CAPTAIN_PLANET_PROJECT/)
+[![Portais da Alma](https://img.shields.io/badge/MOSAICO-Portais_da_Alma-ff007f?style=for-the-badge&logo=artstation&logoColor=white)](https://donicatia1206.github.io/lagrimas_emocionais/)
 </div>
 
 ---
