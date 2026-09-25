@@ -84,7 +84,8 @@
 
 <br>
 
-[![Acessar Simulador Online](https://img.shields.io/badge/EXPRESSE__O__OLHAR-Acessar__Simulador-00f2fe?style=for-the-badge&logo=githubpages&logoColor=black)](https://donicatia1206.github.io/lagrimas_emocionais/)
+[![EXPRESSE O OLHAR](https://img.shields.io/badge/EXPRESSE_O_OLHAR-Acessar_Portal-00f2fe?style=for-the-badge&logo=githubpages&logoColor=black)](https://donicatia1206.github.io/lagrimas_emocionais/)
+[![ACESSAR SIMULADOR](https://img.shields.io/badge/ACESSAR_SIMULADOR-Ir_para_IA-f3ba2f?style=for-the-badge&logo=render&logoColor=black)](https://donicatia1206.github.io/CAPTAIN_PLANET_PROJECT/)
 
 </div>
 
