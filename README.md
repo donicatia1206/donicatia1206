@@ -8,6 +8,8 @@
 [![Balanço Energético](https://img.shields.io/badge/PORTAL-Balanço_Energético-00f2fe?style=for-the-badge&logo=githubpages&logoColor=black)](https://donicatia1206.github.io/donicatia1206/)
 [![Sintetizador IA](https://img.shields.io/badge/SIMULADOR-Sintetizador_IA-f3ba2f?style=for-the-badge&logo=render&logoColor=black)](https://donicatia1206.github.io/CAPTAIN_PLANET_PROJECT/)
 [![Portais da Alma](https://img.shields.io/badge/MOSAICO-Portais_da_Alma-ff007f?style=for-the-badge&logo=artstation&logoColor=white)](https://donicatia1206.github.io/lagrimas_emocionais/)
+[![Patrocinar Projeto](https://img.shields.io/badge/PATROCINAR-Projeto_5º_Elemento-1a73e8?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/donicatia1206)
+
 
 </div>
 ---
