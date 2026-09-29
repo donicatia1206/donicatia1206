@@ -54,9 +54,7 @@
 
 </div>
 
-* 🔗 **Simulação Virtual:** [Acessar Projeto Wokwi](https://wokwi.com/)
-* 📄 **Relatório Técnico:** [Ver Documentação da Palmilha](https://github.com/donicatia1206/PROJETO_5O_ELEMENTO)
-* 🧠 **Visão Científica:** *A fusão entre bioengenharia, eletrônica e algoritmos para otimização do movimento humano.*
+
 
 ---
 
