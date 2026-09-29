@@ -46,7 +46,7 @@
 
 ### 👟 PALMILHA INTELIGENTE (ESP32-C3 & IoT)
 
-<img src="https://raw.githubusercontent.com/donicatia1206/PROJETO_5O_ELEMENTO/main/assets/Montagem.png" alt="Posição Exata das Peças no Corte do E.V.A." width="100%">
+<img src="https://raw.githubusercontent.com/donicatia1206/PROJETO_5O_ELEMENTO/main/assets/montagem.png" alt="Posição Exata das Peças no Corte do E.V.A." width="100%">
 
 #### 🔌 Esquema Elétrico e Conexões do Circuito
 <img src="https://raw.githubusercontent.com/donicatia1206/PROJETO_5O_ELEMENTO/main/assets/palmilha_diagrama.png" alt="Diagrama de Conexões Eletrônicas" width="100%">
