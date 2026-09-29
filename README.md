@@ -43,19 +43,23 @@
 
 ---
 
+---
 
+### 👟 PALMILHA INTELIGENTE (ESP32-C3 & IoT)
 
-
----### 👟 PALMILHA INTELIGENTE (ESP32-C3 & IoT)
-
-![Posição Exata das Peças no Corte do E.V.A.](assets/montagem.png)
-
-#### 🔌 Esquema Elétrico e Conexões do Circuito
 ![Diagrama de Conexões Eletrônicas](assets/palmilha_diagrama.png)
+
+#### 🔌 Passo a Passo de Montagem e Componentes
+![Posição Exata das Peças e Montagem](assets/montagem.png)
 
 * 🔗 **Simulação Virtual:** [Acesse Projeto Wokwi](https://wokwi.com/)
 * 📄 **Relatório Técnico:** [Ver Documentação da Palmilha](https://github.com/donicatia1206/PROJETO_5O_ELEMENTO)
 * 🧠 **Visão Científica:** *A fusão entre bioengenharia, eletrónica e algoritmos para otimização do movimento humano.*
+
+---
+
+
+
 
 
 </div>
