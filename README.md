@@ -44,17 +44,20 @@
 ---
 
 
+---
+
 ### 👟 PALMILHA INTELIGENTE (ESP32-C3 & IoT)
 
-<img src="https://raw.githubusercontent.com/donicatia1206/PROJETO_5O_ELEMENTO/main/assets/montagem.png" alt="Posição Exata das Peças no Corte do E.V.A." width="100%">
+![Posição Exata das Peças no Corte do E.V.A.](https://raw.githubusercontent.com/donicatia1206/PROJETO_5O_ELEMENTO/main/assets/montagem.png)
 
 #### 🔌 Esquema Elétrico e Conexões do Circuito
-<img src="https://raw.githubusercontent.com/donicatia1206/PROJETO_5O_ELEMENTO/main/assets/palmilha_diagrama.png" alt="Diagrama de Conexões Eletrônicas" width="100%">
+![Diagrama de Conexões Eletrônicas](https://raw.githubusercontent.com/donicatia1206/PROJETO_5O_ELEMENTO/main/assets/palmilha_diagrama.png)
 
 * 🔗 **Simulação Virtual:** [Acesse Projeto Wokwi](https://wokwi.com/)
 * 📄 **Relatório Técnico:** [Ver Documentação da Palmilha](https://github.com/donicatia1206/PROJETO_5O_ELEMENTO)
-* 🧠 **Visão Científica:** *A fusão entre bioengenharia, eletrônica e algoritmos para otimização do movimento humano.*
+* 🧠 **Visão Científica:** *A fusão entre bioengenharia, eletrónica e algoritmos para otimização do movimento humano.*
 
+---
 
 </div>
 
