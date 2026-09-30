@@ -166,28 +166,62 @@
         .resultado h3 { color: #ffd166; margin-top: 0; font-size: 1.1em; text-transform: uppercase; letter-spacing: 1px; }
         .res-linha { display: flex; justify-content: space-around; margin: 8px 0; font-size: 1em; }
 
-        /* AJUSTES RESPONSIVOS PARA MÓVEL */
+        /* AJUSTES RESPONSIVOS COMPACTOS PARA TELEMÓVEL */
         @media (max-width: 768px) {
             body {
-                padding: 10px;
+                padding: 5px;
             }
             .card {
-                padding: 15px;
+                padding: 12px 15px;
             }
             h2 {
-                font-size: 1.4em;
+                font-size: 1.25em;
+            }
+            p.sub {
+                font-size: 0.8em;
+                margin-bottom: 10px;
+            }
+            .telemetria-box {
+                padding: 6px;
+                margin-bottom: 10px;
+            }
+            .telemetria-val {
+                font-size: 1.2em;
             }
             .grid-container {
                 flex-direction: column;
+                gap: 10px;
+            }
+            label {
+                margin-top: 5px;
+                font-size: 0.75em;
+            }
+            input, select {
+                padding: 5px 8px;
+                font-size: 0.85em;
+                margin-top: 2px;
+            }
+            .alimentos-grid {
+                max-height: 180px; /* Reduzido para caber melhor na tela */
+                padding: 5px;
+            }
+            .alimento-item {
+                padding: 2px 4px;
+                font-size: 0.78em;
             }
             .dados-pessoais-grid {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                gap: 8px;
+                gap: 6px;
+            }
+            button {
+                margin-top: 10px;
+                padding: 9px;
+                font-size: 0.9em;
             }
             .res-linha {
                 flex-direction: column;
-                gap: 5px;
+                gap: 4px;
             }
         }
     </style>
