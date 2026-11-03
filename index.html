@@ -12,10 +12,45 @@
             margin: 0;
             padding: 20px; 
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             min-height: 90vh;
         }
+
+        /* --- BARRA DE NAVEGAÇÃO TOPO CYBERPUNK --- */
+        .top-nav {
+            max-width: 900px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            gap: 10px;
+        }
+        .nav-btn {
+            background: #101b35;
+            border: 1px solid #00f0ff;
+            color: #00f0ff;
+            padding: 8px 14px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.85em;
+            font-weight: bold;
+            box-shadow: 0 0 8px rgba(0, 240, 255, 0.2);
+            transition: 0.3s;
+        }
+        .nav-btn:hover {
+            background: #00f0ff;
+            color: #080d1a;
+            box-shadow: 0 0 15px #00f0ff;
+        }
+        .user-status {
+            font-size: 0.85em;
+            color: #ffd166;
+            font-weight: bold;
+        }
+
         .card { 
             background: #101b35; 
             padding: 25px 30px; 
@@ -44,7 +79,7 @@
             font-weight: 600;
             letter-spacing: 1px;
         }
-        
+
         .telemetria-box {
             display: flex;
             justify-content: space-around;
@@ -131,7 +166,7 @@
         .alimento-item span { color: #e0f7fa; }
         .alimento-item input { width: auto; cursor: pointer; accent-color: #00f0ff; margin: 0; }
 
-        button { 
+        .btn-calc { 
             width: 100%;
             background: linear-gradient(90deg, #00f0ff, #0077b6); 
             color: #080d1a; 
@@ -147,7 +182,7 @@
             box-shadow: 0 0 15px rgba(0, 240, 255, 0.4);
             transition: 0.3s;
         }
-        button:hover { 
+        .btn-calc:hover { 
             background: linear-gradient(90deg, #ffd166, #ffb703);
             box-shadow: 0 0 25px rgba(255, 209, 102, 0.6);
             color: #000;
@@ -166,67 +201,69 @@
         .resultado h3 { color: #ffd166; margin-top: 0; font-size: 1.1em; text-transform: uppercase; letter-spacing: 1px; }
         .res-linha { display: flex; justify-content: space-around; margin: 8px 0; font-size: 1em; }
 
-        /* AJUSTES RESPONSIVOS COMPACTOS PARA TELEMÓVEL */
+        /* --- MODAIS DE INTERFACE (LOGIN, PERFIL, HISTÓRICO) --- */
+        .modal-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(4, 8, 16, 0.92); display: flex;
+            justify-content: center; align-items: center; z-index: 2000;
+        }
+        .cyber-modal {
+            background: #101b35; border: 2px solid #00f0ff;
+            box-shadow: 0 0 25px rgba(0, 240, 255, 0.4); border-radius: 14px;
+            padding: 22px; width: 90%; max-width: 420px; color: #fff; position: relative;
+        }
+        .fechar-modal {
+            position: absolute; right: 15px; top: 12px; color: #ff5252;
+            font-size: 1.4em; cursor: pointer; font-weight: bold;
+        }
+        .btn-cyber-primary {
+            width: 100%; padding: 10px; background: linear-gradient(90deg, #00f0ff, #0077b6);
+            border: none; color: #080d1a; font-weight: bold; border-radius: 6px; cursor: pointer; margin-top: 10px;
+        }
+        .btn-cyber-guest {
+            width: 100%; padding: 9px; background: transparent;
+            border: 1px solid #ffd166; color: #ffd166; font-weight: bold;
+            border-radius: 6px; cursor: pointer; margin-top: 8px;
+        }
+        .tabela-historico {
+            width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 0.8em;
+        }
+        .tabela-historico th, .tabela-historico td {
+            border: 1px solid #00b4d8; padding: 6px; text-align: center;
+        }
+        .tabela-historico th { background: #080d1a; color: #00f0ff; }
+
+        /* RESPONSIVO MOBILE */
         @media (max-width: 768px) {
-            body {
-                padding: 5px;
-            }
-            .card {
-                padding: 12px 15px;
-            }
-            h2 {
-                font-size: 1.25em;
-            }
-            p.sub {
-                font-size: 0.8em;
-                margin-bottom: 10px;
-            }
-            .telemetria-box {
-                padding: 6px;
-                margin-bottom: 10px;
-            }
-            .telemetria-val {
-                font-size: 1.2em;
-            }
-            .grid-container {
-                flex-direction: column;
-                gap: 10px;
-            }
-            label {
-                margin-top: 5px;
-                font-size: 0.75em;
-            }
-            input, select {
-                padding: 5px 8px;
-                font-size: 0.85em;
-                margin-top: 2px;
-            }
-            .alimentos-grid {
-                max-height: 180px; /* Reduzido para caber melhor na tela */
-                padding: 5px;
-            }
-            .alimento-item {
-                padding: 2px 4px;
-                font-size: 0.78em;
-            }
-            .dados-pessoais-grid {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                gap: 6px;
-            }
-            button {
-                margin-top: 10px;
-                padding: 9px;
-                font-size: 0.9em;
-            }
-            .res-linha {
-                flex-direction: column;
-                gap: 4px;
-            }
+            body { padding: 5px; }
+            .card { padding: 12px 15px; }
+            h2 { font-size: 1.25em; }
+            p.sub { font-size: 0.8em; margin-bottom: 10px; }
+            .telemetria-box { padding: 6px; margin-bottom: 10px; }
+            .telemetria-val { font-size: 1.2em; }
+            .grid-container { flex-direction: column; gap: 10px; }
+            label { margin-top: 5px; font-size: 0.75em; }
+            input, select { padding: 5px 8px; font-size: 0.85em; margin-top: 2px; }
+            .alimentos-grid { max-height: 180px; padding: 5px; }
+            .alimento-item { padding: 2px 4px; font-size: 0.78em; }
+            .dados-pessoais-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+            .btn-calc { margin-top: 10px; padding: 9px; font-size: 0.9em; }
+            .res-linha { flex-direction: column; gap: 4px; }
+            .top-nav { flex-wrap: wrap; justify-content: center; }
         }
     </style>
 </head>
 <body>
+
+<!-- BARRA SUPERIOR CYBERPUNK DE CONTROLE -->
+<div class="top-nav">
+    <div class="user-status" id="displaySessao">👤 Status: Modo Visitante</div>
+    <div>
+        <button class="nav-btn" onclick="abrirModal('modalPerfil')">👤 PERFIL BIOMÉTRICO</button>
+        <button class="nav-btn" onclick="abrirModal('modalHistorico')">📜 HISTÓRICO</button>
+        <button class="nav-btn" style="border-color:#ffd166; color:#ffd166;" onclick="abrirModal('modalLogin')">🔐 LOGIN / AUTENTICAR</button>
+    </div>
+</div>
 
 <div class="card">
     <h2>⚡ PROJETO 5º ELEMENTO</h2>
@@ -324,14 +361,104 @@
             <label for="tempo">Tempo da Atividade (minutos):</label>
             <input type="number" id="tempo" value="45">
 
-            <button onclick="calcular()">⚡ CALCULAR BALANÇO</button>
+            <button class="btn-calc" onclick="calcular()">⚡ CALCULAR BALANÇO</button>
         </div>
     </div>
 
     <div id="resultado" class="resultado"></div>
 </div>
 
+<!-- MODAL 1: AUTENTICAÇÃO / LOGIN CYBERPUNK -->
+<div class="modal-overlay" id="modalLogin" style="display:none;">
+    <div class="cyber-modal">
+        <span class="fechar-modal" onclick="fecharModal('modalLogin')">&times;</span>
+        <h3 style="text-align: center; color: #00f0ff; margin-top: 0;">🔐 LOGIN BIOMÉTRICO</h3>
+        <p style="text-align: center; font-size: 0.8em; color: #8b949e;">Acesse sua conta ou use o modo didático</p>
+        
+        <label>Celular ou E-mail:</label>
+        <input type="text" id="loginUser" placeholder="ex: 199983199587 ou doni@etec.sp.gov.br">
+        
+        <label>Senha de Acesso:</label>
+        <input type="password" id="loginPass" placeholder="••••••••">
+        
+        <button class="btn-cyber-primary" onclick="autenticar('comum')">CONECTAR PALMILHA ⚡</button>
+        <button class="btn-cyber-guest" onclick="autenticar('visitante')">👤 ENTAR COMO VISITANTE (TCC DEMO)</button>
+    </div>
+</div>
+
+<!-- MODAL 2: INFORMAÇÃO PESSOAL / PERFIL -->
+<div class="modal-overlay" id="modalPerfil" style="display:none;">
+    <div class="cyber-modal">
+        <span class="fechar-modal" onclick="fecharModal('modalPerfil')">&times;</span>
+        <h3 style="text-align: center; color: #ffd166; margin-top: 0;">👤 INFORMAÇÃO PESSOAL</h3>
+        <p style="font-size: 0.85em; color: #00f0ff;"><b>Apelido:</b> Donizete (doni)</p>
+        <p style="font-size: 0.85em; color: #00f0ff;"><b>ID do Atleta:</b> 3500949</p>
+        <p style="font-size: 0.85em; color: #00f0ff;"><b>Celular:</b> 55-19983199587</p>
+        <p style="font-size: 0.85em; color: #00f0ff;"><b>Status ESP32:</b> Conectado (Wi-Fi 2.4GHz)</p>
+        <p style="font-size: 0.85em; color: #00f0ff;"><b>Bateria Palmilha:</b> 98% (Li-Po 3.7V)</p>
+        <button class="btn-cyber-primary" onclick="fecharModal('modalPerfil')">OK / VOLTAR</button>
+    </div>
+</div>
+
+<!-- MODAL 3: HISTÓRICO DE REGISTROS -->
+<div class="modal-overlay" id="modalHistorico" style="display:none;">
+    <div class="cyber-modal" style="max-width: 550px;">
+        <span class="fechar-modal" onclick="fecharModal('modalHistorico')">&times;</span>
+        <h3 style="text-align: center; color: #00f0ff; margin-top: 0;">📜 REGISTROS DE BALANÇO</h3>
+        <table class="tabela-historico">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Consumo</th>
+                    <th>Passos</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>29/10/2026</td>
+                    <td>1540 kcal</td>
+                    <td>4000</td>
+                    <td style="color:#00e676; font-weight:bold;">Déficit -2610 kcal</td>
+                </tr>
+                <tr>
+                    <td>28/10/2026</td>
+                    <td>1850 kcal</td>
+                    <td>3500</td>
+                    <td style="color:#00e676; font-weight:bold;">Déficit -2100 kcal</td>
+                </tr>
+                <tr>
+                    <td>27/10/2026</td>
+                    <td>2100 kcal</td>
+                    <td>2800</td>
+                    <td style="color:#ff5252; font-weight:bold;">Superávit +300 kcal</td>
+                </tr>
+            </tbody>
+        </table>
+        <button class="btn-cyber-primary" onclick="fecharModal('modalHistorico')" style="margin-top:15px;">FECHAR REGISTROS</button>
+    </div>
+</div>
+
 <script>
+function abrirModal(id) {
+    document.getElementById(id).style.display = 'flex';
+}
+function fecharModal(id) {
+    document.getElementById(id).style.display = 'none';
+}
+function autenticar(tipo) {
+    const display = document.getElementById('displaySessao');
+    if (tipo === 'visitante') {
+        display.innerText = "👤 Status: Modo Visitante (TCC Demo)";
+        alert("Acesso como Visitante concedido! Painel liberado para testes.");
+    } else {
+        const user = document.getElementById('loginUser').value || "Donizete";
+        display.innerText = "⚡ Usuário Conectado: " + user;
+        alert("Autenticado com sucesso! Sincronizando com a API do ESP32-C3...");
+    }
+    fecharModal('modalLogin');
+}
+
 function somarAlimentos() {
     let total = 0;
     const checkboxes = document.querySelectorAll('.alimentos-grid input[type="checkbox"]:checked');
@@ -346,7 +473,7 @@ async function sincronizarHardware() {
             const data = await res.json();
             document.getElementById('livePassos').innerText = data.passos;
             document.getElementById('liveFsr').innerText = data.fsr;
-            
+
             const inputPassos = document.getElementById('passos');
             if (inputPassos.dataset.manual !== "true") {
                 inputPassos.value = data.passos;
