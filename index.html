@@ -60,6 +60,7 @@
             box-shadow: 0 0 30px rgba(0, 240, 255, 0.25), inset 0 0 15px rgba(0, 240, 255, 0.1); 
             border: 2px solid #00f0ff;
             box-sizing: border-box;
+            transition: opacity 0.5s ease;
         }
         h2 { 
             text-align: center; 
@@ -132,7 +133,6 @@
             box-shadow: 0 0 10px #ffd166;
         }
 
-        /* Container flexível dos dados biológicos */
         .dados-pessoais-grid {
             display: flex;
             gap: 6px;
@@ -201,10 +201,10 @@
         .resultado h3 { color: #ffd166; margin-top: 0; font-size: 1.1em; text-transform: uppercase; letter-spacing: 1px; }
         .res-linha { display: flex; justify-content: space-around; margin: 8px 0; font-size: 1em; }
 
-        /* --- MODAIS DE INTERFACE (LOGIN, PERFIL, HISTÓRICO) --- */
+        /* --- MODAIS DE INTERFACE --- */
         .modal-overlay {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(4, 8, 16, 0.92); display: flex;
+            background: rgba(4, 8, 16, 0.95); display: flex;
             justify-content: center; align-items: center; z-index: 2000;
         }
         .cyber-modal {
@@ -233,7 +233,6 @@
         }
         .tabela-historico th { background: #080d1a; color: #00f0ff; }
 
-        /* RESPONSIVO MOBILE */
         @media (max-width: 768px) {
             body { padding: 5px; }
             .card { padding: 12px 15px; }
@@ -255,17 +254,18 @@
 </head>
 <body>
 
-<!-- BARRA SUPERIOR CYBERPUNK DE CONTROLE -->
-<div class="top-nav">
-    <div class="user-status" id="displaySessao">👤 Status: Modo Visitante</div>
+<!-- BARRA SUPERIOR CYBERPUNK -->
+<div class="top-nav" id="painelTopo" style="display:none;">
+    <div class="user-status" id="displaySessao">👤 Status: Não Autenticado</div>
     <div>
         <button class="nav-btn" onclick="abrirModal('modalPerfil')">👤 PERFIL BIOMÉTRICO</button>
         <button class="nav-btn" onclick="abrirModal('modalHistorico')">📜 HISTÓRICO</button>
-        <button class="nav-btn" style="border-color:#ffd166; color:#ffd166;" onclick="abrirModal('modalLogin')">🔐 LOGIN / AUTENTICAR</button>
+        <button class="nav-btn" style="border-color:#ff5252; color:#ff5252;" onclick="sairSessao()">🚪 SAIR</button>
     </div>
 </div>
 
-<div class="card">
+<!-- PAINEL PRINCIPAL (BLOQUEADO INICIALMENTE) -->
+<div class="card" id="painelConteudo" style="display:none;">
     <h2>⚡ PROJETO 5º ELEMENTO</h2>
     <p class="sub">PAINEL DE BALANÇO ENERGÉTICO EMBARCADO</p>
 
@@ -368,39 +368,38 @@
     <div id="resultado" class="resultado"></div>
 </div>
 
-<!-- MODAL 1: AUTENTICAÇÃO / LOGIN CYBERPUNK -->
-<div class="modal-overlay" id="modalLogin" style="display:none;">
+<!-- MODAL OBRIGATÓRIO DE AUTENTICAÇÃO / LOGIN -->
+<div class="modal-overlay" id="modalLogin" style="display:flex;">
     <div class="cyber-modal">
-        <span class="fechar-modal" onclick="fecharModal('modalLogin')">&times;</span>
-        <h3 style="text-align: center; color: #00f0ff; margin-top: 0;">🔐 LOGIN BIOMÉTRICO</h3>
-        <p style="text-align: center; font-size: 0.8em; color: #8b949e;">Acesse sua conta ou use o modo didático</p>
+        <h3 style="text-align: center; color: #00f0ff; margin-top: 0;">🔐 AUTENTICAÇÃO OBRIGATÓRIA</h3>
+        <p style="text-align: center; font-size: 0.8em; color: #8b949e;">Entre com sua conta ou utilize o modo de testes</p>
         
         <label>Celular ou E-mail:</label>
-        <input type="text" id="loginUser" placeholder="ex: 199983199587 ou doni@etec.sp.gov.br">
+        <input type="text" id="loginUser" placeholder="ex: 11999990000 ou doni@etec.sp.gov.br">
         
         <label>Senha de Acesso:</label>
         <input type="password" id="loginPass" placeholder="••••••••">
         
-        <button class="btn-cyber-primary" onclick="autenticar('comum')">CONECTAR PALMILHA ⚡</button>
-        <button class="btn-cyber-guest" onclick="autenticar('visitante')">👤 ENTAR COMO VISITANTE (TCC DEMO)</button>
+        <button class="btn-cyber-primary" onclick="autenticar('comum')">CONECTAR COM SENHA ⚡</button>
+        <button class="btn-cyber-guest" onclick="autenticar('visitante')">👤 TESTAR MODO VISITANTE (TCC DEMO)</button>
     </div>
 </div>
 
-<!-- MODAL 2: INFORMAÇÃO PESSOAL / PERFIL -->
+<!-- MODAL DE PERFIL (NUMERO PRIVADO ALTERADO PARA FICTÍCIO) -->
 <div class="modal-overlay" id="modalPerfil" style="display:none;">
     <div class="cyber-modal">
         <span class="fechar-modal" onclick="fecharModal('modalPerfil')">&times;</span>
         <h3 style="text-align: center; color: #ffd166; margin-top: 0;">👤 INFORMAÇÃO PESSOAL</h3>
         <p style="font-size: 0.85em; color: #00f0ff;"><b>Apelido:</b> Donizete (doni)</p>
         <p style="font-size: 0.85em; color: #00f0ff;"><b>ID do Atleta:</b> 3500949</p>
-        <p style="font-size: 0.85em; color: #00f0ff;"><b>Celular:</b> 55-19983199587</p>
+        <p style="font-size: 0.85em; color: #00f0ff;"><b>Celular:</b> 55-11999990000</p>
         <p style="font-size: 0.85em; color: #00f0ff;"><b>Status ESP32:</b> Conectado (Wi-Fi 2.4GHz)</p>
         <p style="font-size: 0.85em; color: #00f0ff;"><b>Bateria Palmilha:</b> 98% (Li-Po 3.7V)</p>
         <button class="btn-cyber-primary" onclick="fecharModal('modalPerfil')">OK / VOLTAR</button>
     </div>
 </div>
 
-<!-- MODAL 3: HISTÓRICO DE REGISTROS -->
+<!-- MODAL DE HISTÓRICO -->
 <div class="modal-overlay" id="modalHistorico" style="display:none;">
     <div class="cyber-modal" style="max-width: 550px;">
         <span class="fechar-modal" onclick="fecharModal('modalHistorico')">&times;</span>
@@ -443,20 +442,32 @@
 function abrirModal(id) {
     document.getElementById(id).style.display = 'flex';
 }
+
 function fecharModal(id) {
     document.getElementById(id).style.display = 'none';
 }
+
 function autenticar(tipo) {
     const display = document.getElementById('displaySessao');
+    
     if (tipo === 'visitante') {
         display.innerText = "👤 Status: Modo Visitante (TCC Demo)";
-        alert("Acesso como Visitante concedido! Painel liberado para testes.");
     } else {
         const user = document.getElementById('loginUser').value || "Donizete";
         display.innerText = "⚡ Usuário Conectado: " + user;
-        alert("Autenticado com sucesso! Sincronizando com a API do ESP32-C3...");
     }
+
+    // LIBERA A INTERFACE APÓS AUTENTICAR OU VISITANTE
+    document.getElementById('painelTopo').style.display = 'flex';
+    document.getElementById('painelConteudo').style.display = 'block';
     fecharModal('modalLogin');
+}
+
+function sairSessao() {
+    // BLOQUEIA O PAINEL E EXIGE NOVO LOGIN
+    document.getElementById('painelTopo').style.display = 'none';
+    document.getElementById('painelConteudo').style.display = 'none';
+    abrirModal('modalLogin');
 }
 
 function somarAlimentos() {
