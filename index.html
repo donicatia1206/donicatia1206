@@ -10,7 +10,7 @@
             background-color: #080d1a; 
             color: #e0f7fa; 
             margin: 0;
-            padding: 20px; 
+            padding: 12px; 
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -18,24 +18,24 @@
             min-height: 90vh;
         }
 
-        /* --- BARRA DE NAVEGAÇÃO TOPO CYBERPUNK --- */
+        /* --- BARRA DE NAVEGAÇÃO TOPO CYBERPUNK (COMPACTA) --- */
         .top-nav {
-            max-width: 900px;
+            max-width: 750px;
             width: 100%;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 12px;
-            gap: 10px;
+            margin-bottom: 10px;
+            gap: 8px;
         }
         .nav-btn {
             background: #101b35;
             border: 1px solid #00f0ff;
             color: #00f0ff;
-            padding: 8px 14px;
+            padding: 6px 12px;
             border-radius: 6px;
             cursor: pointer;
-            font-size: 0.85em;
+            font-size: 0.8em;
             font-weight: bold;
             box-shadow: 0 0 8px rgba(0, 240, 255, 0.2);
             transition: 0.3s;
@@ -46,18 +46,19 @@
             box-shadow: 0 0 15px #00f0ff;
         }
         .user-status {
-            font-size: 0.85em;
+            font-size: 0.8em;
             color: #ffd166;
             font-weight: bold;
         }
 
+        /* --- CARD PRINCIPAL (AJUSTADO PARA 750px) --- */
         .card { 
             background: #101b35; 
-            padding: 25px 30px; 
-            border-radius: 16px; 
-            max-width: 900px; 
+            padding: 18px 22px; 
+            border-radius: 14px; 
+            max-width: 750px; 
             width: 100%;
-            box-shadow: 0 0 30px rgba(0, 240, 255, 0.25), inset 0 0 15px rgba(0, 240, 255, 0.1); 
+            box-shadow: 0 0 25px rgba(0, 240, 255, 0.25), inset 0 0 12px rgba(0, 240, 255, 0.1); 
             border: 2px solid #00f0ff;
             box-sizing: border-box;
             transition: opacity 0.5s ease;
@@ -67,16 +68,16 @@
             color: #00f0ff; 
             margin-top: 0;
             margin-bottom: 2px; 
-            font-size: 1.8em;
+            font-size: 1.5em;
             text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff;
-            letter-spacing: 2px;
+            letter-spacing: 1.5px;
         }
         p.sub { 
             text-align: center; 
-            font-size: 0.95em; 
+            font-size: 0.85em; 
             color: #ffd166; 
             margin-top: 0; 
-            margin-bottom: 20px;
+            margin-bottom: 14px;
             font-weight: 600;
             letter-spacing: 1px;
         }
@@ -88,43 +89,43 @@
             background: #080d1a;
             border: 1px solid #00f0ff;
             border-radius: 8px;
-            padding: 10px;
-            margin-bottom: 20px;
+            padding: 8px;
+            margin-bottom: 14px;
             box-shadow: 0 0 10px rgba(0, 240, 255, 0.15);
         }
         .telemetria-item { text-align: center; }
-        .telemetria-val { font-size: 1.5em; font-weight: bold; color: #00f0ff; }
+        .telemetria-val { font-size: 1.3em; font-weight: bold; color: #00f0ff; }
 
         .grid-container {
             display: flex;
             flex-wrap: wrap;
-            gap: 20px;
+            gap: 16px;
             width: 100%;
         }
         .coluna {
             flex: 1;
-            min-width: 280px;
+            min-width: 260px;
         }
 
         label { 
             display: block; 
-            margin-top: 10px; 
+            margin-top: 8px; 
             font-weight: bold; 
             color: #00f0ff; 
-            font-size: 0.85em;
+            font-size: 0.8em;
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
         input, select { 
             width: 100%; 
-            padding: 8px 10px; 
-            margin-top: 4px; 
-            border-radius: 8px; 
+            padding: 7px 9px; 
+            margin-top: 3px; 
+            border-radius: 6px; 
             border: 1px solid #00b4d8; 
             box-sizing: border-box; 
             background-color: #080d1a; 
             color: #ffffff; 
-            font-size: 0.9em;
+            font-size: 0.85em;
             outline: none;
             transition: 0.3s;
         }
@@ -144,20 +145,20 @@
         .alimentos-grid { 
             display: grid; 
             grid-template-columns: 1fr; 
-            gap: 5px; 
-            max-height: 280px; 
+            gap: 4px; 
+            max-height: 240px; 
             overflow-y: auto; 
             background: #080d1a; 
-            padding: 10px; 
+            padding: 8px; 
             border-radius: 8px; 
-            margin-top: 6px; 
+            margin-top: 4px; 
             border: 1px solid #00b4d8; 
         }
         .alimento-item { 
             display: flex; 
             align-items: center; 
             justify-content: space-between; 
-            font-size: 0.82em; 
+            font-size: 0.78em; 
             padding: 4px 6px;
             border-bottom: 1px solid #101b35;
             background: rgba(255,255,255,0.02);
@@ -172,34 +173,34 @@
             color: #080d1a; 
             font-weight: 800; 
             cursor: pointer; 
-            margin-top: 18px; 
-            padding: 12px;
+            margin-top: 14px; 
+            padding: 10px;
             border: none; 
-            border-radius: 8px;
-            font-size: 1em; 
+            border-radius: 6px;
+            font-size: 0.9em; 
             text-transform: uppercase;
-            letter-spacing: 1.5px;
-            box-shadow: 0 0 15px rgba(0, 240, 255, 0.4);
+            letter-spacing: 1.2px;
+            box-shadow: 0 0 12px rgba(0, 240, 255, 0.4);
             transition: 0.3s;
         }
         .btn-calc:hover { 
             background: linear-gradient(90deg, #ffd166, #ffb703);
-            box-shadow: 0 0 25px rgba(255, 209, 102, 0.6);
+            box-shadow: 0 0 20px rgba(255, 209, 102, 0.6);
             color: #000;
         }
 
         .resultado { 
-            margin-top: 20px; 
-            padding: 15px; 
-            border-radius: 10px; 
+            margin-top: 16px; 
+            padding: 12px; 
+            border-radius: 8px; 
             display: none; 
             text-align: center; 
             background-color: #080d1a; 
             border: 1.5px solid #00f0ff; 
             box-shadow: 0 0 15px rgba(0,240,255,0.25);
         }
-        .resultado h3 { color: #ffd166; margin-top: 0; font-size: 1.1em; text-transform: uppercase; letter-spacing: 1px; }
-        .res-linha { display: flex; justify-content: space-around; margin: 8px 0; font-size: 1em; }
+        .resultado h3 { color: #ffd166; margin-top: 0; font-size: 1em; text-transform: uppercase; letter-spacing: 1px; }
+        .res-linha { display: flex; justify-content: space-around; margin: 6px 0; font-size: 0.9em; }
 
         /* --- MODAIS DE INTERFACE --- */
         .modal-overlay {
@@ -209,45 +210,45 @@
         }
         .cyber-modal {
             background: #101b35; border: 2px solid #00f0ff;
-            box-shadow: 0 0 25px rgba(0, 240, 255, 0.4); border-radius: 14px;
-            padding: 22px; width: 90%; max-width: 420px; color: #fff; position: relative;
+            box-shadow: 0 0 25px rgba(0, 240, 255, 0.4); border-radius: 12px;
+            padding: 18px; width: 90%; max-width: 400px; color: #fff; position: relative;
         }
         .fechar-modal {
-            position: absolute; right: 15px; top: 12px; color: #ff5252;
-            font-size: 1.4em; cursor: pointer; font-weight: bold;
+            position: absolute; right: 12px; top: 10px; color: #ff5252;
+            font-size: 1.3em; cursor: pointer; font-weight: bold;
         }
         .btn-cyber-primary {
-            width: 100%; padding: 10px; background: linear-gradient(90deg, #00f0ff, #0077b6);
-            border: none; color: #080d1a; font-weight: bold; border-radius: 6px; cursor: pointer; margin-top: 10px;
+            width: 100%; padding: 9px; background: linear-gradient(90deg, #00f0ff, #0077b6);
+            border: none; color: #080d1a; font-weight: bold; border-radius: 6px; cursor: pointer; margin-top: 8px; font-size: 0.85em;
         }
         .btn-cyber-guest {
-            width: 100%; padding: 9px; background: transparent;
+            width: 100%; padding: 8px; background: transparent;
             border: 1px solid #ffd166; color: #ffd166; font-weight: bold;
-            border-radius: 6px; cursor: pointer; margin-top: 8px;
+            border-radius: 6px; cursor: pointer; margin-top: 6px; font-size: 0.8em;
         }
         .tabela-historico {
-            width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 0.8em;
+            width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 0.78em;
         }
         .tabela-historico th, .tabela-historico td {
-            border: 1px solid #00b4d8; padding: 6px; text-align: center;
+            border: 1px solid #00b4d8; padding: 5px; text-align: center;
         }
         .tabela-historico th { background: #080d1a; color: #00f0ff; }
 
         @media (max-width: 768px) {
-            body { padding: 5px; }
-            .card { padding: 12px 15px; }
-            h2 { font-size: 1.25em; }
-            p.sub { font-size: 0.8em; margin-bottom: 10px; }
-            .telemetria-box { padding: 6px; margin-bottom: 10px; }
-            .telemetria-val { font-size: 1.2em; }
-            .grid-container { flex-direction: column; gap: 10px; }
-            label { margin-top: 5px; font-size: 0.75em; }
-            input, select { padding: 5px 8px; font-size: 0.85em; margin-top: 2px; }
-            .alimentos-grid { max-height: 180px; padding: 5px; }
-            .alimento-item { padding: 2px 4px; font-size: 0.78em; }
-            .dados-pessoais-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
-            .btn-calc { margin-top: 10px; padding: 9px; font-size: 0.9em; }
-            .res-linha { flex-direction: column; gap: 4px; }
+            body { padding: 4px; }
+            .card { padding: 12px 14px; }
+            h2 { font-size: 1.2em; }
+            p.sub { font-size: 0.78em; margin-bottom: 8px; }
+            .telemetria-box { padding: 5px; margin-bottom: 8px; }
+            .telemetria-val { font-size: 1.1em; }
+            .grid-container { flex-direction: column; gap: 8px; }
+            label { margin-top: 4px; font-size: 0.72em; }
+            input, select { padding: 5px 7px; font-size: 0.8em; margin-top: 2px; }
+            .alimentos-grid { max-height: 160px; padding: 4px; }
+            .alimento-item { padding: 2px 4px; font-size: 0.75em; }
+            .dados-pessoais-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
+            .btn-calc { margin-top: 8px; padding: 8px; font-size: 0.85em; }
+            .res-linha { flex-direction: column; gap: 3px; }
             .top-nav { flex-wrap: wrap; justify-content: center; }
         }
     </style>
@@ -264,7 +265,7 @@
     </div>
 </div>
 
-<!-- PAINEL PRINCIPAL (BLOQUEADO INICIALMENTE) -->
+<!-- PAINEL PRINCIPAL -->
 <div class="card" id="painelConteudo" style="display:none;">
     <h2>⚡ PROJETO 5º ELEMENTO</h2>
     <p class="sub">PAINEL DE BALANÇO ENERGÉTICO EMBARCADO</p>
@@ -407,7 +408,7 @@
     </div>
 </div>
 
-<!-- MODAL DE PERFIL (NUMERO PRIVADO ALTERADO PARA FICTÍCIO) -->
+<!-- MODAL DE PERFIL (NUMERO FICTÍCIO MANTIDO) -->
 <div class="modal-overlay" id="modalPerfil" style="display:none;">
     <div class="cyber-modal">
         <span class="fechar-modal" onclick="fecharModal('modalPerfil')">&times;</span>
@@ -421,9 +422,9 @@
     </div>
 </div>
 
-<!-- MODAL DE HISTÓRICO -->
+<!-- MODAL DE HISTÓRICO DINÂMICO -->
 <div class="modal-overlay" id="modalHistorico" style="display:none;">
-    <div class="cyber-modal" style="max-width: 550px;">
+    <div class="cyber-modal" style="max-width: 520px;">
         <span class="fechar-modal" onclick="fecharModal('modalHistorico')">&times;</span>
         <h3 style="text-align: center; color: #00f0ff; margin-top: 0;">📜 REGISTROS DE BALANÇO</h3>
         <table class="tabela-historico">
@@ -435,36 +436,26 @@
                     <th>Status</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>29/10/2026</td>
-                    <td>1540 kcal</td>
-                    <td>4000</td>
-                    <td style="color:#00e676; font-weight:bold;">Déficit -2610 kcal</td>
-                </tr>
-                <tr>
-                    <td>28/10/2026</td>
-                    <td>1850 kcal</td>
-                    <td>3500</td>
-                    <td style="color:#00e676; font-weight:bold;">Déficit -2100 kcal</td>
-                </tr>
-                <tr>
-                    <td>27/10/2026</td>
-                    <td>2100 kcal</td>
-                    <td>2800</td>
-                    <td style="color:#ff5252; font-weight:bold;">Superávit +300 kcal</td>
-                </tr>
+            <tbody id="corpoHistorico">
+                <!-- Preenchido dinamicamente via JS -->
             </tbody>
         </table>
-        <button class="btn-cyber-primary" onclick="fecharModal('modalHistorico')" style="margin-top:15px;">FECHAR REGISTROS</button>
+        <button class="btn-cyber-primary" onclick="fecharModal('modalHistorico')" style="margin-top:12px;">FECHAR REGISTROS</button>
     </div>
 </div>
 
 <script>
-let usuarioCadastrado = null;
-let senhaCadastrada = null;
+// HISTÓRICO INICIAL
+const historicoPadrao = [
+    { data: "29/10/2026", consumo: "1540 kcal", passos: "4000", status: "Déficit -2610 kcal", cor: "#00e676" },
+    { data: "28/10/2026", consumo: "1850 kcal", passos: "3500", status: "Déficit -2100 kcal", cor: "#00e676" },
+    { data: "27/10/2026", consumo: "2100 kcal", passos: "2800", status: "Superávit +300 kcal", cor: "#ff5252" }
+];
 
 function abrirModal(id) {
+    if (id === 'modalHistorico') {
+        renderizarHistorico();
+    }
     document.getElementById(id).style.display = 'flex';
 }
 
@@ -502,8 +493,10 @@ function realizarCadastro() {
         return;
     }
 
-    usuarioCadastrado = user;
-    senhaCadastrada = pass;
+    // PERSISTÊNCIA PERMANENTE NO LOCALSTORAGE
+    localStorage.setItem('usuarioCadastrado', user);
+    localStorage.setItem('senhaCadastrada', pass);
+    localStorage.setItem('nomeCadastrado', nome || user);
 
     alert("✅ Cadastro efetuado com sucesso! Agora informe seu usuário e senha na tela de login.");
     
@@ -516,14 +509,18 @@ function conectarComSenha() {
     const user = document.getElementById('loginUser').value.trim();
     const pass = document.getElementById('loginPass').value.trim();
 
+    const userSalvo = localStorage.getItem('usuarioCadastrado');
+    const passSalvo = localStorage.getItem('senhaCadastrada');
+    const nomeSalvo = localStorage.getItem('nomeCadastrado');
+
     if (!user || !pass) {
         alert("⚠️ Digite o e-mail/celular e a senha para entrar.");
         return;
     }
 
-    if (usuarioCadastrado) {
-        if (user === usuarioCadastrado && pass === senhaCadastrada) {
-            autenticar('comum', user);
+    if (userSalvo && passSalvo) {
+        if (user === userSalvo && pass === passSalvo) {
+            autenticar('comum', nomeSalvo);
         } else {
             alert("❌ Usuário ou senha incorretos! Verifique os dados cadastrados.");
         }
@@ -604,20 +601,57 @@ function calcular() {
     resDiv.style.display = 'block';
 
     let cor = balanco < 0 ? '#00e676' : '#ff5252';
-    let status = balanco < 0 ? 'DÉFICIT CALÓRICO' : 'SUPERÁVIT CALÓRICO';
+    let statusTexto = balanco < 0 ? 'DÉFICIT CALÓRICO' : 'SUPERÁVIT CALÓRICO';
+    let statusFormatado = `${statusTexto}: ${Math.abs(balanco).toFixed(1)} kcal`;
 
     resDiv.innerHTML = `
         <h3>📊 RESULTADO DA AVALIAÇÃO INDIVIDUAL</h3>
-        <p style="color:#aaa; font-size:0.9em; margin-bottom:10px;">TMB Calculada (${sexo === 'M' ? 'Homem' : 'Mulher'}): <b>${tmbBase.toFixed(1)} kcal</b></p>
+        <p style="color:#aaa; font-size:0.85em; margin-bottom:8px;">TMB Calculada (${sexo === 'M' ? 'Homem' : 'Mulher'}): <b>${tmbBase.toFixed(1)} kcal</b></p>
         <div class="res-linha">
             <span>Consumo Total: <b style="color:#ffd166;">${consumo.toFixed(0)} kcal</b></span>
             <span>Gasto Estimado: <b style="color:#00f0ff;">${gastoTotal.toFixed(1)} kcal</b></span>
         </div>
-        <hr style="border-color: #00b4d8; opacity: 0.3; margin: 12px 0;">
-        <p style="color: ${cor}; font-size: 1.3em; margin: 5px 0; font-weight: bold; text-shadow: 0 0 10px ${cor};">
-            ${status}: ${Math.abs(balanco).toFixed(1)} kcal
+        <hr style="border-color: #00b4d8; opacity: 0.3; margin: 10px 0;">
+        <p style="color: ${cor}; font-size: 1.2em; margin: 4px 0; font-weight: bold; text-shadow: 0 0 10px ${cor};">
+            ${statusFormatado}
         </p>
     `;
+
+    adicionarAoHistorico(consumo, passos, statusFormatado, cor);
+}
+
+function adicionarAoHistorico(consumo, passos, statusFormatado, cor) {
+    let historico = JSON.parse(localStorage.getItem('historicoBalanco')) || historicoPadrao;
+    
+    const hoje = new Date();
+    const dataFormatada = hoje.toLocaleDateString('pt-BR');
+
+    historico.unshift({
+        data: dataFormatada,
+        consumo: `${consumo.toFixed(0)} kcal`,
+        passos: `${passos}`,
+        status: statusFormatado,
+        cor: cor
+    });
+
+    localStorage.setItem('historicoBalanco', JSON.stringify(historico));
+}
+
+function renderizarHistorico() {
+    let historico = JSON.parse(localStorage.getItem('historicoBalanco')) || historicoPadrao;
+    const tbody = document.getElementById('corpoHistorico');
+    tbody.innerHTML = '';
+
+    historico.forEach(item => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+            <td>${item.data}</td>
+            <td>${item.consumo}</td>
+            <td>${item.passos}</td>
+            <td style="color:${item.cor}; font-weight:bold;">${item.status}</td>
+        `;
+        tbody.appendChild(tr);
+    });
 }
 </script>
 </body>
